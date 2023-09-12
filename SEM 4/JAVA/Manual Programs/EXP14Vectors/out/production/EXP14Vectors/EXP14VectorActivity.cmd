@@ -1,0 +1,3 @@
+javac EXP14VectorActivity.java
+java EXP14VectorActivity.java
+pause

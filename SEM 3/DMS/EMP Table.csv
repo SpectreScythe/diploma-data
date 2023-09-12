@@ -1,0 +1,17 @@
+empno,deptno,ename,ejob,loc,job_id,salary,email
+501,5603,Skyler,Salesman,Philadelphia,101,1000,skyler123@gmail.com
+509,5606,Jones,Salesman,Philadelphia,105,1200,jones123@gmail.com
+505,5609,Juluis,Analyst,Philadelphia,109,4000,julius123@gmail.com
+503,5603,Chris,Salesman,Philadelphia,103,1100,chris123@gmail.com
+510,5606,Hank,Salesman,Philadelphia,106,1150,hank123@gmail.com
+504,5609,Noah,Manager,Philadelphia,110,2300,noah123@gmail.com
+506,5603,White,Manager,Philadelphia,108,2400,white123@gmail.com
+520,5606,King,President,Philadelphia,120,8000,king123@gmail.com
+508,5609,Remus,Manager,Philadelphia,104,2100,remus123@gmail.com
+507,5606,Marie,Analyst,Philadelphia,112,4500,marie123@gmail.com
+511,5609,Nike,Manager,Philadelphia,115,3000,nike123@gmail.com
+513,5603,Jesse,Analyst,Philadelphia,107,1500,jesse123@gmail.com
+519,5606,Alex,Salesman,Philadelphia,113,1400,alex123@gmail.com
+512,5603,Mike,Manager,Philadelphia,102,2900,mike123@gmail.com
+514,5609,Combo,Manager,Philadelphia,114,3100,combo123@gmail.com
+516,5606,Thomas,Salesman,Philadelphia,116,1200,thomas123@gmail.com

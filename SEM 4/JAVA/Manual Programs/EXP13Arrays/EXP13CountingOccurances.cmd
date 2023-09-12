@@ -1,0 +1,3 @@
+javac EXP13CountingOccurances.java
+java EXP13CountingOccurances
+pause

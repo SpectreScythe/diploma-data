@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <title>EXP 2 - D</title>
+    <script>
+      let myChoice;
+      do {
+        myChoice = prompt(
+          "1 - Addition\n" + "2 - Subtraction\n" + "3 - Exit\n",
+        );
+
+        myChoice = parseInt(myChoice);
+
+        switch (myChoice) {
+          case 1:
+            let Ax = parseInt(prompt("Enter number A : "));
+            let Ay = parseInt(prompt("Enter number B : "));
+            alert("Addition : " + Ax + " + " + Ay + " = " + (Ax + Ay));
+            document.write(
+              "<h3>Addition : " + Ax + " + " + Ay + " = " + (Ax + Ay) + "</h3>",
+            );
+            break;
+          case 2:
+            let Sx = parseInt(prompt("Enter number A : "));
+            let Sy = parseInt(prompt("Enter number B : "));
+            alert("Subtraction : " + Sx + " - " + Sy + " = " + (Sx - Sy));
+            document.write(
+              "<h3>Subtraction : " +
+                Sx +
+                " - " +
+                Sy +
+                " = " +
+                (Sx - Sy) +
+                "</h3>",
+            );
+            break;
+          case 3:
+            alert("Exiting...");
+            break;
+        }
+      } while (myChoice != "3");
+    </script>
+    <style>
+      h3 {
+        color: #ccc;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #111">
+    <footer>
+      <h3>Abdurrahman Qureshi</h3>
+      <h3>210451</h3>
+    </footer>
+  </body>
+</html>

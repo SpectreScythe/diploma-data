@@ -1,0 +1,3 @@
+javac EXP4VowelCheck.java
+java EXP4VowelCheck
+pause

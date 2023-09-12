@@ -1,0 +1,3 @@
+javac EXP10ComplexNumber.java
+java EXP10ComplexNumber
+pause

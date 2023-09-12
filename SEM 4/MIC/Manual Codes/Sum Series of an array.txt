@@ -1,0 +1,20 @@
+.model small
+.data
+array dw 0009H, 0010H, 0008H, 0001H, 0002H
+res dw 0000h
+.code
+movax, @data
+mov ds, ax
+mov cx, 0005H
+mov si,offset array
+up: mov ax, [si]
+add si , 2
+mov bx , [si]
+mov si , 02
+add ax,bx
+add res , ax
+loop up
+mov ah, 4CH
+int 21H 
+ends
+end

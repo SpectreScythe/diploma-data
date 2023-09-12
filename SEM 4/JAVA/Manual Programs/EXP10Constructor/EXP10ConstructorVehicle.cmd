@@ -1,0 +1,3 @@
+javac EXP10ConstructorVehicle.java
+java EXP10ConstructorVehicle
+pause

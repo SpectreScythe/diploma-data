@@ -1,0 +1,3 @@
+javac EXP13ArrayAdd.java
+java EXP13ArrayAdd
+pause

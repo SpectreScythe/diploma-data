@@ -1,0 +1,7 @@
+class EXP10ComplexNumber
+{
+	public static void main(String[] args)
+	{
+		
+	}
+}

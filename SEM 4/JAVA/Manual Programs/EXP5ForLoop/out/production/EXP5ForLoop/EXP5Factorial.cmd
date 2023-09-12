@@ -1,0 +1,3 @@
+javac EXP5Factorial.java
+java EXP5Factorial
+pause

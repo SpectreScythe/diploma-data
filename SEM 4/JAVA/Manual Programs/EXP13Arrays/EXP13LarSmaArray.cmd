@@ -1,0 +1,3 @@
+javac EXP13LarSmaArray.java
+java EXP13LarSmaArray
+pause

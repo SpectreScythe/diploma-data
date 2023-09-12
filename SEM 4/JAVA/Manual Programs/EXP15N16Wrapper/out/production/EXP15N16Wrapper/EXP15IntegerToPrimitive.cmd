@@ -1,0 +1,3 @@
+javac EXP15IntegerToPrimitive.java
+java EXP15IntegerToPrimitive
+pause

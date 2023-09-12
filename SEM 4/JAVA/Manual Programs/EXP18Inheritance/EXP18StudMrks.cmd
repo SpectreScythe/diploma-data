@@ -1,0 +1,3 @@
+javac EXP18StudMrks.java
+java EXP18StudMrks
+pause

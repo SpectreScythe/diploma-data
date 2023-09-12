@@ -1,0 +1,20 @@
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.exe.config
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.Form1.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.Resources.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.vbproj.GenerateResource.Cache
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.exe.config
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.exe
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.xml
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.exe
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\bin\Debug\EXP13BirthdayRegex.xml
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.Form1.resources
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.Resources.resources
+I:\SEM 4\GAD\Manual Apps\EXP13BirthdayRegex\EXP13BirthdayRegex\obj\Debug\EXP13BirthdayRegex.vbproj.GenerateResource.Cache

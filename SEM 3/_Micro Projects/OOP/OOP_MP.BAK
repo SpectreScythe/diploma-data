@@ -1,0 +1,204 @@
+
+/*-------------------------------------------------------------------------------*/
+
+// Object Oriented Programming Micro-Project
+
+/*-------------------------------------------------------------------------------*/
+
+// Header Files
+
+/*-------------------------------------------------------------------------------*/
+
+#include <iostream.h>
+#include <stdio.h>
+#include <conio.h>
+#include <dos.h>
+#include <graphics.h>
+
+/*-------------------------------------------------------------------------------*/
+
+// GLOBAL DECLARATIONS
+
+/*-------------------------------------------------------------------------------*/
+
+int i;
+
+/*-------------------------------------------------------------------------------*/
+
+// Loading Function	---	210451
+
+/*-------------------------------------------------------------------------------*/
+
+void loadingScreen()
+{
+
+	// Loading Text
+
+	setcolor(9);
+	settextstyle(0, 0, 3);
+
+	rectangle(50 , 20 , 530  , 160);
+	outtextxy(90, 70, "Your Piano");
+	outtextxy(120, 100, "is Processing!!!");
+
+	settextstyle(0 , 0 , 1);
+
+	outtextxy(542 , 40 , " * Sorry,");
+	outtextxy(542 , 55 , " we have");
+	outtextxy(542 , 70 , " only two");
+	outtextxy(542 , 85 , " GigaBytes");
+	outtextxy(542 , 100 , " of RAM ");
+	outtextxy(542 , 115 , " in this");
+	outtextxy(542 , 130 , " computer *");
+
+	settextstyle(0 , 0 , 2);
+
+	outtextxy(40 , 250 , " Get ready to play the P-I-A-N-O!!!");
+
+	outtextxy(100, 350, "Loading...");
+	rectangle(99, 379, 549, 391);
+
+	for (int i = 0; i < 448; i++)
+	{
+		setcolor(8);
+		rectangle(100 + i, 380, 548, 390);
+		delay(10);
+	}
+
+	setcolor(9);
+
+	settextstyle(0, 0, 1);
+	outtextxy(400, 430, "Press any key to continue...");
+	getch();
+}
+
+/*-------------------------------------------------------------------------------*/
+
+// Home Screen Function	---	210451
+
+/*-------------------------------------------------------------------------------*/
+
+void homeScreen()
+{
+	setcolor(9);
+
+	settextstyle(0, 0, 4);
+
+	outtextxy(250, 100, "OOP");			   // Title
+	outtextxy(50, 160, "  Micro-Project"); // Title
+
+	settextstyle(0, 0, 2);
+	outtextxy(120, 250, "Guided By Ms. Zeba"); // Faculty
+
+	settextstyle(0, 0, 1);
+	outtextxy(120, 320, "210422"); // Participants Roll No
+	outtextxy(120, 300, "210451"); // Participants Roll No
+}
+
+/*-------------------------------------------------------------------------------*/
+
+// Piano Function	---	210451
+
+/*-------------------------------------------------------------------------------*/
+
+void piano()
+{
+
+	setcolor(15);
+
+	// Piano Borders
+
+	line(0, 300, 640, 300); // Piano Top Border
+
+	line(0, 300, 0, 700); // Piano Left Border
+
+	line(639, 300, 639, 700); // Piano Right Border
+
+	// Piano Keys
+
+	line(53, 300, 53, 700); // Piano Key 1
+
+       //	line(33, 300 , 33 , 300);
+
+	line(106, 300, 106, 700); // Piano Key 2
+
+       //	line(86 , 300 , 86, 300);
+
+	line(159, 300, 159, 700); // Piano Key 3
+
+	line(212, 300, 212, 700); // Piano Key 4
+
+	line(265, 300, 265, 700); // Piano Key 5
+
+	line(318, 300, 318, 700); // Piano Key 6
+
+	line(371, 300, 371, 700); // Piano Key 7
+
+	line(424, 300, 424, 700); // Piano Key 8
+
+	line(477, 300, 477, 700); // Piano Key 9
+
+	line(530, 300, 530, 700); // Piano Key 10
+
+	line(583, 300, 583, 700); // Piano Key 11
+
+/*-------------------------------------------------------------------------------*/
+
+	// Sound Code
+
+/*-------------------------------------------------------------------------------*/
+
+	char ch = 'y';
+
+	cout<<"\n\n\t\t Press different keys on\n\t\t the keyboard and create\n\t\t countless combinations of\n\t\t sound from the PIANO.";
+
+	cout<<"\n\n\t\t Press X to exit......";
+
+	while (ch != 'X')
+	{
+
+		ch = getch();
+
+		sound(10 * ch);
+
+		delay(75);
+
+		nosound();
+
+	}
+
+}
+
+/*-------------------------------------------------------------------------------*/
+
+// Main Function
+
+/*-------------------------------------------------------------------------------*/
+
+void main()
+{
+	int gd = DETECT, gm;
+	initgraph(&gd, &gm, "");
+
+	for (i = 0; i < 100; i++)
+	{
+		homeScreen();
+		delay(5);
+	}
+
+	outtextxy(400, 400, "Press any key to continue...");
+	getch();
+
+	cleardevice();
+
+	loadingScreen();
+
+	cleardevice();
+
+	piano();
+
+	getch();
+	closegraph();
+}
+
+/*-------------------------------------------------------------------------------*/

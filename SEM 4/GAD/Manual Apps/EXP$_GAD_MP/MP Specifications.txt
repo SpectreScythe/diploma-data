@@ -1,0 +1,5 @@
+GAD MP
+
+Form Resolution : 1280 X 720
+Tab Buttons : 100 X 50
+Coral Hex Code : #FFF50

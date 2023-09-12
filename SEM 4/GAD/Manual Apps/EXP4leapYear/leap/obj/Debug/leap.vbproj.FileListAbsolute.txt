@@ -1,0 +1,12 @@
+C:\Users\Dell 09\source\repos\leap\leap\bin\Debug\leap.exe.config
+C:\Users\Dell 09\source\repos\leap\leap\bin\Debug\leap.exe
+C:\Users\Dell 09\source\repos\leap\leap\bin\Debug\leap.pdb
+C:\Users\Dell 09\source\repos\leap\leap\bin\Debug\leap.xml
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.vbproj.AssemblyReference.cache
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.vbproj.SuggestedBindingRedirects.cache
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.Resources.resources
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.vbproj.GenerateResource.cache
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.vbproj.CoreCompileInputs.cache
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.exe
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.xml
+C:\Users\Dell 09\source\repos\leap\leap\obj\Debug\leap.pdb

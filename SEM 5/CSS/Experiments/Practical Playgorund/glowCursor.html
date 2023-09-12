@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursor Aura Effect</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .aura {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(255, 0, 0, 0.7);
+            border-radius: 50%;
+            pointer-events: none;
+            transform: translate(-50%, -50%) scale(0);
+            animation: glow 1s infinite;
+        }
+
+        @keyframes glow {
+            0% {
+                transform: translate(-50%, -50%) scale(0);
+                opacity: 0.7;
+            }
+            100% {
+                transform: translate(-50%, -50%) scale(1.5);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <script>
+        document.addEventListener("mousemove", (e) => {
+            const aura = document.createElement("div");
+            aura.classList.add("aura");
+            aura.style.left = e.clientX + "px";
+            aura.style.top = e.clientY + "px";
+            document.body.appendChild(aura);
+
+            // Remove the aura element after a certain time (e.g., 1 second)
+            setTimeout(() => {
+                aura.remove();
+            }, 2000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+create table 
+ques1 as 
+select * from emp;
+
+-------------------------------------
+
+delete from emp_new1 
+where empno = 505;
+
+-------------------------------------
+
+select ename
+from emp
+where mod(salary,2) = 0;
+
+-------------------------------------
+
+select deptno,dname,count(*)
+from dept
+group by deptno,dname;
+
+-------------------------------------
+
+create table ques12 
+(loc varchar(30) check (loc = upper(loc)));
+
+insert into ques12 values 
+('delhi');
+
+ERROR:  new row for relation "ques12" violates check constraint "ques12_loc_check"
+DETAIL:  Failing row contains (delhi).
+SQL state: 23514
+
+-------------------------------------
+

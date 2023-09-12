@@ -1,0 +1,24 @@
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.exe.config
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.Form1.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.Resources.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.vbproj.GenerateResource.Cache
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.exe.config
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.exe
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.xml
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.exe
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.pdb
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.xml
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.Form1.resources
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.Resources.resources
+I:\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\bin\Debug\EXP13EmailRegex.exe.config
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.exe
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP13EmailRegex\EXP13EmailRegex\obj\Debug\EXP13EmailRegex.pdb

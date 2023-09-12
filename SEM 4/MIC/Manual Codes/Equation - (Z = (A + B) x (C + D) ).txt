@@ -1,0 +1,31 @@
+Sum Proc Near
+Add al,bl
+RET
+Sum endp
+.data 
+n1 db 02h
+n2 db 08h
+n3 db 07h
+n4 db 05h
+s1 db 00h
+s2 db 00h
+res db ?
+.code
+mov ax , @data
+mov ds , ax
+mov al , n1
+mov bl , n2
+Call Sum
+mov s1,al
+mov al , n3
+mov bl , n4
+Call Sum
+mov s2,al
+mov al,s1
+mov bl,s2
+mul bl
+mov res , ax
+mov ah, 4CH
+int 21H 
+ends
+end

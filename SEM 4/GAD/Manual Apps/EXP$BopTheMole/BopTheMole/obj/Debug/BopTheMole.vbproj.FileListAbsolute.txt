@@ -1,0 +1,25 @@
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\bin\Debug\BopTheMole.exe.config
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\bin\Debug\BopTheMole.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\bin\Debug\BopTheMole.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\bin\Debug\BopTheMole.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.Resources.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.vbproj.GenerateResource.Cache
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.BopTheMoleGame.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\BopTheMole\BopTheMole\obj\Debug\BopTheMole.BopTheMoleMenu.resources
+I:\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\bin\Debug\BopTheMole.exe.config
+I:\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.xml
+I:\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\bin\Debug\BopTheMole.exe.config
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\bin\Debug\BopTheMole.exe
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\bin\Debug\BopTheMole.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\bin\Debug\BopTheMole.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.BopTheMoleGame.resources
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.Resources.resources
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.BopTheMoleMenu.resources
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP$BopTheMole\BopTheMole\obj\Debug\BopTheMole.exe

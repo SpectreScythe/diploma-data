@@ -1,0 +1,175 @@
+#include<stdio.h>
+
+#define size 10
+int top = -1;
+int stack_array[size]; 
+
+void popStack(){
+    if(top == -1){
+        printf("\n\t Stack underflow!!!\n");
+    }
+    else{
+        printf("\n\t Element %d - Popped from stack\n",stack_array[top]);
+        top = top - 1;
+    }
+}
+
+void pushStack(){
+    int stackData;
+    if(top == size){
+        printf("\n\t Stack overflow!!!\n");
+    }
+    else{
+        printf("\n\t Enter data to be pushed:");
+        scanf("%d",&stackData);
+        top = top + 1;
+        stack_array[top] = stackData;
+        printf("\n\t Element %d - Pushed into stack\n",stack_array[top]);
+    }
+}
+
+void displayStack(){
+    if(top == -1){
+        printf("\n\t Stack underflow!!!\n");
+    }
+    else{
+        for(int i = top; i>0; i--){
+            printf("\n\t %d",stack_array[i]);
+        }
+    }
+}
+
+int main(){
+    int choice;
+
+        printf("\n\tFollowing operations on stack can occur according to their respective number:\n");
+
+    while(1){
+        printf("\n\t 1 - Popping from the stack");
+        printf("\n\t 2 - Pushing in to the stack");
+        printf("\n\t 3 - Display the created stack");
+        printf("\n\t 4 - Exit");
+
+        printf("\n\t Enter your choice:");
+
+        scanf("%d",&choice);
+
+        switch(choice){
+            case 1:
+                popStack();
+                break;
+            case 2:
+                pushStack();
+                break;
+            case 3:
+                displayStack();
+                break;
+            case 4:
+                exit(0);
+            default :
+                printf("\n\t Invalid Choice!!!\n");
+        }
+    }
+    return 0;
+}
+
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------------------------
+
+#include<stdio.h>
+#include<stdlib.h>
+
+struct node{
+   int data;
+   struct node *next; 
+};
+
+struct node* top = NULL;
+
+int popStackLinkList(){
+    if(top == NULL){
+        printf("\n\t Stack underflow!!!\n");
+    }
+    else{
+        struct node *temp = top;
+        int temp_data = top->data;
+        top = top->next;
+        printf("\n\t Number %d popped into the stack",temp);    
+        free(temp);
+        return temp_data;
+    }
+}
+
+void pushStackLinkList(){
+    int num;
+    struct node *newnode;
+    newnode = (struct node*)malloc(sizeof(newnode));
+    printf("\n\t Enter a number to push into the stack:");
+    scanf("%d",&num);
+    if(top == NULL){
+        newnode->next = NULL;
+    }
+    else{
+        newnode->next = top;
+    }
+    top = newnode;
+    printf("\n\t Number %d pushed into the stack",num);
+}
+
+void displayStackLinkList(){
+    if (top == NULL) {
+        printf("\n\t Stack Underflow!!!");
+    }
+    else{
+        printf("\n\t The stack is as follows:\n");
+        struct node *temp = top;
+        printf("\t");
+        while(temp->next != NULL){
+            printf("%d---->",temp->data);
+            temp=temp->next;
+        }
+        printf("%d---->NULL",temp->data);
+    } 
+}
+
+int main(){
+    int choice;
+
+        printf("\n\tFollowing operations on stack can occur according to their respective number:\n");
+
+    while(1){
+        printf("\n\t 1 - Popping from the stack");
+        printf("\n\t 2 - Pushing in to the stack");
+        printf("\n\t 3 - Display the created stack");
+        printf("\n\t 4 - Exit");
+
+        printf("\n\t Enter your choice:");
+
+        scanf("%d",&choice);
+
+        switch(choice){
+            case 1:
+                popStackLinkList();
+                break;
+            case 2:
+                pushStackLinkList();
+                break;
+            case 3:
+                displayStackLinkList();
+                break;
+            case 4:
+                exit(0);
+            default :
+                printf("\n\t Invalid Choice!!!\n");
+        }
+    }
+    return 0;
+}

@@ -1,0 +1,47 @@
+.Title{
+  text-align: center;
+  font-family: sans-serif;
+  border-bottom: 2px black solid;
+  padding-bottom: 12px;
+}
+  .center_height_width{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+  }
+  .AMI{
+    background-color: yellow;
+  }
+  .BEC{
+    background-color: chocolate;
+  }
+  .EEC{
+    background-color: #ffdb58;
+  }
+  .BCC{
+    background-color: #39ff14;
+  }
+  .MA{
+    background-color: grey;
+  }
+  .MZ{
+    background-color: aqua;
+  }
+  .SH{
+    background-color: pink;
+  }
+  .ZF{
+    background-color: lightgreen;
+  }
+  .KJ{
+    background-color: orange;
+  }
+  .ZM{
+    background-color: violet;
+  }
+  .MU{
+    background-color: #c4aead;
+  }
+  .SA{
+    background-color: #a0d6b4;
+  }

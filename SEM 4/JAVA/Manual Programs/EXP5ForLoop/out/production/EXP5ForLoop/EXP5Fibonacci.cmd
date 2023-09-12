@@ -1,0 +1,3 @@
+javac EXP5Fibonacci.java
+java EXP5Fibonacci
+pause

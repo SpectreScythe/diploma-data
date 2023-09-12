@@ -1,0 +1,3 @@
+javac EXP18AniLionCatAs.java
+java EXP18AniLionCatAs
+pause

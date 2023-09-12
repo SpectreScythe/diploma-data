@@ -1,0 +1,62 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("A program to");
+    int amount, proof, $2000, $1000, $500, $200, $100, $50, $20, $10, $5, a, b,
+        c, d, e, f, g, h, i;
+    printf("Enter your desired amount :");
+    scanf("%d", &amount);
+    amount = amount / $2000;
+    a = amount % $2000;
+    amount = amount / $1000;
+    b = amount % $1000;
+    amount = amount / $500;
+    c = amount % $500;
+    amount = amount / $100;
+    e = amount % $100;
+    amount = amount / $50;
+    f = amount % $50;
+    amount = amount / $20;
+    g = amount % $20;
+    amount = amount / $10;
+    h = amount % $10;
+    amount = amount / $5;
+    i = amount % $5;
+    printf("  Amount Entered = %d\n Total number of notes = %d\n", amount, proof);
+    printf("--->Number of 2000r notes = %d\n", a);
+    printf("--->Number of 1000r notes = %d\n", b);
+    printf("--->Number of 500r notes = %d\n", c);
+    printf("--->Number of 200r notes = %d\n", d);
+    printf("--->Number of 100r notes = %d\n", e);
+    printf("--->Number of 50r notes = %d\n", f);
+    printf("--->Number of 20r notes = %d\n", g);
+    printf("--->Number of 10r notes = %d\n", h);
+    printf("--->Number of 5r notes = %d\n", i);
+    return 0;
+}\
+
+
+
+
+
+
+#include<stdio.h>
+int main()
+{
+ int a[8] = {500, 100, 50, 20, 10, 5, 2, 1};
+ int Amount, i, temp;
+ 
+ printf("\n Please Enter the Amount of Cash  =  ");
+ scanf("%d", &Amount);
+ 
+ temp = Amount;
+  
+ for(i = 0; i < 8; i++)
+ {
+ 	printf("\n %d Notes is = %d", a[i], temp / a[i]);
+ 	temp = temp % a[i];
+ }
+ 
+ return 0;
+}

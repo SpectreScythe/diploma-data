@@ -1,0 +1,52 @@
+import java.util.*;
+import java.lang.*;
+
+public class ExamInterface
+{
+	public static void main(String[] args)
+	{
+		Result R = new Result(87,89,91,88 ,"John Wick");
+		R.display_res();
+	}
+}
+
+class Student 
+{
+	protected String name;
+	protected int id;
+	
+	Student(int i,int j , int k , int l,String n)	
+	{
+		id = i;
+		name = n;
+	}
+	
+	void display()	
+	{
+		System.out.println("Age of Employee \t: " + id);
+		System.out.println("Name of Employee \t: "+ name);
+	}
+}
+
+interface Exam 
+{
+//	int basic_salary = 75000;
+	void percent_cal();
+}
+
+class Result extends Student implements Exam
+{
+	protected int total = 0;
+
+	Gross( int i ,int j , int k , int l,String n )
+	{
+		super(i,j,k,l);
+		total = i+j+k+l;	
+	}
+
+	void display_res()
+	{
+		super.display();
+		System.out.println("Total Marks \t\t: " + total);
+	}
+}

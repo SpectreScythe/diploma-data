@@ -1,0 +1,3 @@
+javac EXP5UltaPyramid.java
+java EXP5UltaPyramid
+pause

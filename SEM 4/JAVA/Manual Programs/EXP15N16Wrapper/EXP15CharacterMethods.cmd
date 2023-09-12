@@ -1,0 +1,3 @@
+javac EXP15CharacterMethods.java
+java EXP15CharacterMethods
+pause

@@ -1,0 +1,43 @@
+C:\Users\admin\AppData\Local\Temporary Projects\Darkmode\bin\Debug\Darkmode.exe.config
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\bin\Debug\Darkmode.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\bin\Debug\Darkmode.pdb
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\bin\Debug\Darkmode.xml
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.Form1.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.Resources.resources
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.vbproj.GenerateResource.Cache
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.exe
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.xml
+C:\Users\admin\Documents\Visual Studio 2012\Projects\Darkmode\Darkmode\obj\Debug\Darkmode.pdb
+G:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+G:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.exe
+G:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.xml
+G:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.pdb
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.exe
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.xml
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.pdb
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.exe
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.pdb
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.xml
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.Form1.resources
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.Resources.resources
+I:\Gold Roger\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.exe
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.exe
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\bin\Debug\Darkmode.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.Form1.resources
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.Resources.resources
+C:\Users\Gold Roger\Desktop\College\SEM 4\GUI\Manual Apps\Darkmode\Darkmode\obj\Debug\Darkmode.vbproj.GenerateResource.Cache
+E:\Gold Roger\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+E:\Gold Roger\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.exe
+E:\Gold Roger\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.xml
+E:\Gold Roger\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.pdb
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\bin\Debug\Darkmode.exe.config
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.exe
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.xml
+C:\Users\Gold Roger\Desktop\College\SEM 4\GAD\Manual Apps\EXP9Darkmode\Darkmode\obj\Debug\Darkmode.pdb

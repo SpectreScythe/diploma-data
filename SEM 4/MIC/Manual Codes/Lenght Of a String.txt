@@ -1,0 +1,22 @@
+.model small
+	.data
+		mystr db 'Hello World$'
+		count db 00h
+	.code
+		mov ax , @data
+		mov ds , ax
+		mov cl , 00h
+		mov al , '$'
+		mov si , offset mystr
+		next:
+			cmp al , [si]
+			jz exit
+			inc si
+			add cl , 01h
+			jmp
+		exit:
+		mov count , cl
+		mov ah , 4ch
+		int 21h
+	ends
+end

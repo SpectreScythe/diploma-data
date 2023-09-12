@@ -1,0 +1,17 @@
+empno,deptno,ename,dname,loc,pincode,comm,demail
+501,5603,Skyler,Sales,Philadelphia,19019,50,deptemail123@gmail.com
+509,5606,Jones,Sales,Philadelphia,19019,40,deptemail123@gmail.com
+505,5609,Juluis,Analysis,Philadelphia,19019,100,deptemail123@gmail.com
+503,5603,Chris,Sales,Philadelphia,19019,50,deptemail123@gmail.com
+510,5606,Hank,Sales,Philadelphia,19019,45,deptemail123@gmail.com
+504,5609,Noah,Management,Philadelphia,19019,80,deptemail123@gmail.com
+506,5603,White,Management,Philadelphia,19019,75,deptemail123@gmail.com
+520,5606,King,President,Philadelphia,19019,200,deptemail123@gmail.com
+508,5609,Remus,Management,Philadelphia,19019,70,deptemail123@gmail.com
+507,5606,Marie,Analysis,Philadelphia,19019,95,deptemail123@gmail.com
+511,5609,Nike,Management,Philadelphia,19019,80,deptemail123@gmail.com
+513,5603,Jesse,Analysis,Philadelphia,19019,90,deptemail123@gmail.com
+519,5606,Alex,Sales,Philadelphia,19019,50,deptemail123@gmail.com
+512,5603,Mike,Management,Philadelphia,19019,80,deptemail123@gmail.com
+514,5609,Combo,Management,Philadelphia,19019,75,deptemail123@gmail.com
+516,5606,Thomas,Sales,Philadelphia,19019,45,deptemail123@gmail.com

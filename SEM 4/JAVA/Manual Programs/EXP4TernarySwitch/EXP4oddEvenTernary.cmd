@@ -1,0 +1,3 @@
+javac EXP4oddEvenTernary.java
+java EXP4oddEvenTernary
+pause

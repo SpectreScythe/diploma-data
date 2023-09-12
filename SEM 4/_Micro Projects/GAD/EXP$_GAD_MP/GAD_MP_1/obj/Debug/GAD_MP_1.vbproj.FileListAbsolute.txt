@@ -1,0 +1,401 @@
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+c:\users\gold roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\documents\visual studio 2012\Projects\GAD_MP_1\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_BU _Testing\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\GAD_MP_Backup\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Failed.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Found.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_BeefSteak.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_GrilledChicken.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_FishFillet.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_SpaghettiBolognese.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_BeefRibs.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_ShrimpScampi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_TunaSushi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_MainCourse_ChickenTikkaMasala.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_ItemAdded.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_MangoJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_Mojito.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_RedWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_WaterMelon.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_COOLBERG.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_WATER.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_OrangeJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefRibs.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_FishFillet.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ShrimpScampi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_SpaghettiBolognese.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefSteak.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_GrilledChicken.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_TunaSushi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_CheeseCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_CherryPie.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_FruitCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_IceCream.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_PanCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Sundae.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Macrons.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_GrapeWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_CheeseCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_CherryPie.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_FruitCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_IceCream.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Macrons.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_PanCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Sundae.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_MangoJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_Mojito.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_RedWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_WaterMelon.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_CoolBerg.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_WATER.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_GrapeWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_OrangeJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefRibs.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_FishFillet.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ShrimpScampi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_SpaghettiBolognese.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefSteak.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_GrilledChicken.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_TunaSushi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_Help.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Failed.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Loading_Found.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_Help.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Failed.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Loading_Found.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_QuantityError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_SelectionError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_QuantityError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_Help.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_CheeseCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_CherryPie.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_FruitCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_IceCream.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Macrons.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_PanCake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Sundae.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_SelectionError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info_Desserts_Cupcake.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_MangoJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_Mojito.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_RedWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_WaterMelon.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_CoolBerg.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_WATER.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_GrapeWine.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_OrangeJuice.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefRibs.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_FishFillet.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ShrimpScampi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_SpaghettiBolognese.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Failed.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Loading_Found.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefSteak.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_GrilledChicken.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_TunaSushi.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Confirmation.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Confirmation.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_COD.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.Form2.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealA.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_DealAdded.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealB.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealC.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Scan.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP_Testing_BU - Copy (3)\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Reciept.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form2.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealA.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealB.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealC.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_DealAdded.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Scan.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_COD.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Reciept.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_QuantityError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_SelectionError.resources
+C:\Users\Gold Roger\Documents\Visual Studio 2012\Projects\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Confirmation.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form2.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealA.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealB.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealC.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_DealAdded.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Scan.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_COD.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Reciept.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_QuantityError.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_Help.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_CheeseCake.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_CherryPie.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Cupcake.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_FruitCake.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_IceCream.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Macrons.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_PanCake.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Sundae.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_SelectionError.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Confirmation.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info_Desserts_Cupcake.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Desserts.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Drinks.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_MangoJuice.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_Mojito.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_RedWine.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_WaterMelon.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_CoolBerg.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_WATER.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_MainCourse.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_GrapeWine.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_OrangeJuice.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefRibs.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_FishFillet.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ShrimpScampi.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_SpaghettiBolognese.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Failed.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Loading_Found.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefSteak.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_GrilledChicken.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_TunaSushi.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+E:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+D:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+D:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+D:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+D:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.pdb
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.xml
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form1.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Form2.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealA.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealB.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info4_DealC.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_DealAdded.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Scan.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_COD.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info6_Reciept.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_QuantityError.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_Help.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_CheeseCake.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_CherryPie.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Cupcake.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_FruitCake.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_IceCream.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Macrons.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_PanCake.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info3_Desserts_Sundae.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Cart_SelectionError.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Confirmation.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info_Desserts_Cupcake.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Desserts.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_Drinks.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_MangoJuice.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_Mojito.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_RedWine.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_WaterMelon.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_CoolBerg.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_DRINKS_WATER.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_ItemAdded_MainCourse.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_GrapeWine.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info2_Drinks_OrangeJuice.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefRibs.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_FishFillet.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_ShrimpScampi.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_SpaghettiBolognese.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form1_Home.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form2_SignUp.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form3_Welcome.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form4_MainCourse.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form5_Drinks.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form6_Desserts.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form7_Cart.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Form8_Info.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Failed.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Login_Loading_Error.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info5_Login_Loading_Found.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_BeefSteak.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_GrilledChicken.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_Info1_MainCourse_TunaSushi.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
+I:\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache

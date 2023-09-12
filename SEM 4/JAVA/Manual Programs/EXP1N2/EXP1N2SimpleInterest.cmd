@@ -1,0 +1,3 @@
+javac EXP1N2SimpleInterest.java
+java EXP1N2SimpleInterest
+pause

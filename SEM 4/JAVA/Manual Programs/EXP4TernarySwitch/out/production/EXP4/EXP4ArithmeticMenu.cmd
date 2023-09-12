@@ -1,0 +1,3 @@
+javac EXP4ArithmeticMenu.java
+java EXP4ArithmeticMenu
+pause

@@ -1,0 +1,30 @@
+.MODEL SMALL
+.DATA
+RES DB ?
+CNT DB 05H       ; Initialize the counter for the no of Fibonacci No needed
+.CODE
+MOV AX,@DATA
+MOV DS,AX
+LEA SI,RES
+MOV CX,0000H
+MOV CL,CNT       ; Load the count value for CL for looping
+MOV AX,00H       ; Default No
+MOV BX,01H       ; Default No
+call fibo
+MOV AH, 4CH
+INT 21H
+
+;Fibonacci Part
+fibo PROC
+L1:ADD AX,BX
+MOV [SI],AX
+MOV AX,BX
+MOV BX,[SI]
+INC SI
+DEC CX
+JNZ L1
+ret
+fibo endp
+
+ends
+end

@@ -1,0 +1,3 @@
+javac EXP6PalindromeNum.java
+java EXP6PalindromeNum
+pause

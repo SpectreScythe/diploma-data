@@ -1,0 +1,3 @@
+javac EXP18PersonStudCo.java
+java EXP18PersonStudCo
+pause

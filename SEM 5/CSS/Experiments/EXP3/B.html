@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>EXP 3 - B</title>
+    <script>
+      let myArray = [12, 25, 10, 9, 5, 7, 2, 45, 20];
+      document.write("<h3>Array Elements:</h3>");
+      for (const item of myArray) {
+        document.write(item + "   ");
+      }
+      for (let i = 0; i < myArray.length; i++) {
+        for (let j = i + 1; j < myArray.length; j++) {
+          if (myArray[j] < myArray[i]) {
+            let temp = myArray[i];
+            myArray[i] = myArray[j];
+            myArray[j] = temp;
+          }
+        }
+      }
+      document.write("<h3>Sorted Array Elements:</h3>");
+      for (const item of myArray) {
+        document.write(item + " ");
+      }
+    </script>
+    <style>
+      * {
+        color: #ccc;
+      }
+    </style>
+  </head>
+
+  <body style="background-color: #111">
+    <footer>
+      <h3>Abdurrahman Qureshi</h3>
+      <h3>210451</h3>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,3 @@
+javac EXP5StraightPyramid.java
+java EXP5StraightPyramid
+pause

@@ -1,0 +1,30 @@
+Module Module1
+
+    Sub Main()
+        Dim choice As Char
+        choice = InputBox("Enter Any charactersa")
+
+        Select Case (choice)
+
+            Case "a"
+                MsgBox("Vowel A - Found")
+
+            Case "e"
+                MsgBox("Vowel E - Found")
+
+            Case "i"
+                MsgBox("Vowel I - Found")
+
+            Case "o"
+                MsgBox("Vowel O - Found")
+
+            Case "u"
+                MsgBox("Vowel U - Found")
+
+            Case Else
+                MsgBox("Not a Vowel")
+        End Select
+
+    End Sub
+
+End Module

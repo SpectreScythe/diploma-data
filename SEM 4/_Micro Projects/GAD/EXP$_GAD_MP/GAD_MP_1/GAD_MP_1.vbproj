@@ -1,0 +1,912 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6D6FD51E-A571-45BB-8F17-9332297EA5A0}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>GAD_MP_1.My.MyApplication</StartupObject>
+    <RootNamespace>GAD_MP_1</RootNamespace>
+    <AssemblyName>GAD_MP_1</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>GAD_MP_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>GAD_MP_1.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.vb">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealA.Designer.vb">
+      <DependentUpon>GAD_MP_Info4_DealA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealB.Designer.vb">
+      <DependentUpon>GAD_MP_Info4_DealB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealC.Designer.vb">
+      <DependentUpon>GAD_MP_Info4_DealC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info4_DealC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_DealAdded.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_DealAdded.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_DealAdded.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info6_Scan.Designer.vb">
+      <DependentUpon>GAD_MP_Info6_Scan.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info6_Scan.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_COD.Designer.vb">
+      <DependentUpon>GAD_MP_COD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_COD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info6_Reciept.Designer.vb">
+      <DependentUpon>GAD_MP_Info6_Reciept.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info6_Reciept.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_QuantityError.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Cart_QuantityError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_QuantityError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_Help.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Cart_Help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_Help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_CheeseCake.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_CheeseCake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_CheeseCake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_CherryPie.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_CherryPie.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_CherryPie.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Cupcake.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_Cupcake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Cupcake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_FruitCake.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_FruitCake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_FruitCake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_IceCream.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_IceCream.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_IceCream.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Macrons.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_Macrons.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Macrons.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_PanCake.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_PanCake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_PanCake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Sundae.Designer.vb">
+      <DependentUpon>GAD_MP_Info3_Desserts_Sundae.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info3_Desserts_Sundae.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_SelectionError.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Cart_SelectionError.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Cart_SelectionError.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Confirmation.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Confirmation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Confirmation.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info_Desserts_Cupcake.Designer.vb">
+      <DependentUpon>GAD_MP_Info_Desserts_Cupcake.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info_Desserts_Cupcake.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_Desserts.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_Desserts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_Desserts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_Drinks.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_Drinks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_Drinks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_MangoJuice.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_MangoJuice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_MangoJuice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_Mojito.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_Mojito.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_Mojito.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_RedWine.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_RedWine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_RedWine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_WaterMelon.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_WaterMelon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_WaterMelon.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_CoolBerg.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_CoolBerg.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_CoolBerg.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_Water.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_Water.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_Water.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_MainCourse.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_MainCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_ItemAdded_MainCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_GrapeWine.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_GrapeWine.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_GrapeWine.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_OrangeJuice.Designer.vb">
+      <DependentUpon>GAD_MP_Info2_Drinks_OrangeJuice.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info2_Drinks_OrangeJuice.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_BeefRibs.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_BeefRibs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_BeefRibs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_ChickenTikkaMasala.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_ChickenTikkaMasala.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_ChickenTikkaMasala.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_FishFillet.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_FishFillet.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_FishFillet.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_ShrimpScampi.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_ShrimpScampi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_ShrimpScampi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_SpaghettiBolognese.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_SpaghettiBolognese.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_SpaghettiBolognese.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form1_Home.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form1_Home.Designer.vb">
+      <DependentUpon>GAD_MP_Form1_Home.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form2_SignUp.Designer.vb">
+      <DependentUpon>GAD_MP_Form2_SignUp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form2_SignUp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form3_Welcome.Designer.vb">
+      <DependentUpon>GAD_MP_Form3_Welcome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form3_Welcome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form4_MainCourse.Designer.vb">
+      <DependentUpon>GAD_MP_Form4_MainCourse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form4_MainCourse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form5_Drinks.Designer.vb">
+      <DependentUpon>GAD_MP_Form5_Drinks.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form5_Drinks.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form6_Desserts.Designer.vb">
+      <DependentUpon>GAD_MP_Form6_Desserts.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form6_Desserts.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form7_Cart.Designer.vb">
+      <DependentUpon>GAD_MP_Form7_Cart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form7_Cart.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Form8_Info.Designer.vb">
+      <DependentUpon>GAD_MP_Form8_Info.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Form8_Info.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Failed.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Login_Failed.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Failed.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Loading_Error.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Login_Loading_Error.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Loading_Error.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Loading_Found.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_Login_Loading_Found.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_Login_Loading_Found.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_BeefSteak.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_BeefSteak.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_BeefSteak.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_GrilledChicken.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_GrilledChicken.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_GrilledChicken.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_TunaSushi.Designer.vb">
+      <DependentUpon>GAD_MP_Info1_MainCourse_TunaSushi.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info1_MainCourse_TunaSushi.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_SignUp_Loading.Designer.vb">
+      <DependentUpon>GAD_MP_Info5_SignUp_Loading.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GAD_MP_Info5_SignUp_Loading.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info4_DealA.resx">
+      <DependentUpon>GAD_MP_Info4_DealA.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info4_DealB.resx">
+      <DependentUpon>GAD_MP_Info4_DealB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info4_DealC.resx">
+      <DependentUpon>GAD_MP_Info4_DealC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_DealAdded.resx">
+      <DependentUpon>GAD_MP_Info5_DealAdded.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info6_Scan.resx">
+      <DependentUpon>GAD_MP_Info6_Scan.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_COD.resx">
+      <DependentUpon>GAD_MP_COD.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info6_Reciept.resx">
+      <DependentUpon>GAD_MP_Info6_Reciept.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Cart_QuantityError.resx">
+      <DependentUpon>GAD_MP_Info5_Cart_QuantityError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Cart_Help.resx">
+      <DependentUpon>GAD_MP_Info5_Cart_Help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_CheeseCake.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_CheeseCake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_CherryPie.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_CherryPie.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_Cupcake.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_Cupcake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_FruitCake.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_FruitCake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_IceCream.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_IceCream.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_Macrons.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_Macrons.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_PanCake.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_PanCake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info3_Desserts_Sundae.resx">
+      <DependentUpon>GAD_MP_Info3_Desserts_Sundae.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Cart_SelectionError.resx">
+      <DependentUpon>GAD_MP_Info5_Cart_SelectionError.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Confirmation.resx">
+      <DependentUpon>GAD_MP_Info5_Confirmation.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info_Desserts_Cupcake.resx">
+      <DependentUpon>GAD_MP_Info_Desserts_Cupcake.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_ItemAdded_Desserts.resx">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_Desserts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_ItemAdded_Drinks.resx">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_Drinks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_MangoJuice.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_MangoJuice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_Mojito.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_Mojito.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_RedWine.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_RedWine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_WaterMelon.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_WaterMelon.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_CoolBerg.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_CoolBerg.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_Water.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_Water.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_ItemAdded_MainCourse.resx">
+      <DependentUpon>GAD_MP_Info5_ItemAdded_MainCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_GrapeWine.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_GrapeWine.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info2_Drinks_OrangeJuice.resx">
+      <DependentUpon>GAD_MP_Info2_Drinks_OrangeJuice.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_BeefRibs.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_BeefRibs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_ChickenTikkaMasala.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_ChickenTikkaMasala.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_FishFillet.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_FishFillet.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_ShrimpScampi.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_ShrimpScampi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_SpaghettiBolognese.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_SpaghettiBolognese.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form1_Home.resx">
+      <DependentUpon>GAD_MP_Form1_Home.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form2_SignUp.resx">
+      <DependentUpon>GAD_MP_Form2_SignUp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form3_Welcome.resx">
+      <DependentUpon>GAD_MP_Form3_Welcome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form4_MainCourse.resx">
+      <DependentUpon>GAD_MP_Form4_MainCourse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form5_Drinks.resx">
+      <DependentUpon>GAD_MP_Form5_Drinks.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form6_Desserts.resx">
+      <DependentUpon>GAD_MP_Form6_Desserts.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form7_Cart.resx">
+      <DependentUpon>GAD_MP_Form7_Cart.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Form8_Info.resx">
+      <DependentUpon>GAD_MP_Form8_Info.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Login_Failed.resx">
+      <DependentUpon>GAD_MP_Info5_Login_Failed.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Login_Loading_Error.resx">
+      <DependentUpon>GAD_MP_Info5_Login_Loading_Error.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_Login_Loading_Found.resx">
+      <DependentUpon>GAD_MP_Info5_Login_Loading_Found.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_BeefSteak.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_BeefSteak.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_GrilledChicken.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_GrilledChicken.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info1_MainCourse_TunaSushi.resx">
+      <DependentUpon>GAD_MP_Info1_MainCourse_TunaSushi.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GAD_MP_Info5_SignUp_Loading.resx">
+      <DependentUpon>GAD_MP_Info5_SignUp_Loading.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Fries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Burger 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Fries1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Burger .png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Burger1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Drink1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Burger2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Drink2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_Fries2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GAD_MP_Form1_Login_HotDog1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinks.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\deserts.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\iftar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poinsettia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ice-cream-cup.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping-cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Steak.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-valeria-boltneva-1307658.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-eiliv-aceron-6896080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-klaus-nielsen-6287525.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BeefRibs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ShrimpScampi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TunaSushi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChickenTikkaMasala.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FishFillet.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gifgit.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LoginSignImg6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\warning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\water.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coke.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orangejuice.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mojito.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\maza.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\redvineog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermellon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coolberg.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\grapevineog.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\info_50px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\beef_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kawaii_steak_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poultry_leg_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fish Fillet_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\prawn_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spaghetti_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salmon_sushi_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sushi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tableware_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksV.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksW2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dw.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wine.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksO.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dh20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksH2o.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\drinksW.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cake_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCP.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DCCC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DFS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DMac.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DPC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DICS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dessert_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ask Question_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shopping_cart_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Error_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_not_available_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\inbox_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\where_what_quest_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\nothing_found_200px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\18.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\19.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\20.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

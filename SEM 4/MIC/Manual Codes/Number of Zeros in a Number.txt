@@ -1,0 +1,16 @@
+.model small
+	.data
+		n dw 8543H
+		z db 00H
+	.code
+		mov ax , @data
+		mov ds , ax
+		mov ax , n 
+		mov cl , 08H
+		next:
+			rol ax , 01
+			jc one
+			inc z
+		one : loop next
+	ends
+end

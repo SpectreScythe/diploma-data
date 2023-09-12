@@ -1,0 +1,3 @@
+javac EXP4GreatestOfThreeTernary.java
+java EXP4GreatestOfThreeTernary
+pause

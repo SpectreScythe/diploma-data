@@ -1,0 +1,14 @@
+DELETE(T, rightchild)
+  if rightchild.left == NULL
+      TRANSPLANT(T, rightchild, rightchild.right)
+  elseif rightchild.right == NULL
+      TRANSPLANT(T, rightchild, rightchild.left)
+  else
+      leftchild = MINIMUM(rightchild.right) //minimum element in right subtree
+      if leftchild.parent != rightchild //rightchild is not direct child
+          TRANSPLANT(T, leftchild, leftchild.right)
+          leftchild.right = rightchild.right
+          leftchild.right.parent = leftchild
+      TRANSPLANT(T, rightchild, leftchild)
+      leftchild.left = rightchild.left
+      leftchild.left.parent = leftchild

@@ -1,0 +1,406 @@
+#include <dos.h>
+#include <math.h>
+#include <stdio.h>
+#include <conio.h>
+#include <graphics.h>
+#define COS(x) cos(x * 3.14159265359 / 180)
+#define SIN(x) sin(x * 3.14159265359 / 180)
+
+--------------------------------------------------------------------------------------------
+
+/* Polygon Filling */
+void flood_fill(int x, int y, int bgcol, int fillcol)
+{
+    if (getpixel(x, y) == bgcol)
+    {
+        putpixel(x, y, fillcol);
+
+        flood_fill(x + 1, y, bgcol, fillcol);
+        flood_fill(x, y - 1, bgcol, fillcol);
+        flood_fill(x - 1, y, bgcol, fillcol);
+        flood_fill(x, y + 1, bgcol, fillcol);
+
+        flood_fill(x + 1, y + 1, bgcol, fillcol);
+        flood_fill(x + 1, y - 1, bgcol, fillcol);
+        flood_fill(x - 1, y + 1, bgcol, fillcol);
+        flood_fill(x - 1, y - 1, bgcol, fillcol);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void bound_fill(int x, int y, int bdcol, int fillcol)
+{
+    if (getpixel(x, y) != bdcol && getpixel(x, y) != fillcol)
+    {
+        putpixel(x, y, fillcol);
+
+        bound_fill(x + 1, y, bdcol, fillcol);
+        bound_fill(x, y - 1, bdcol, fillcol);
+        bound_fill(x - 1, y, bdcol, fillcol);
+        bound_fill(x, y + 1, bdcol, fillcol);
+
+        bound_fill(x + 1, y + 1, bdcol, fillcol);
+        bound_fill(x + 1, y - 1, bdcol, fillcol);
+        bound_fill(x - 1, y + 1, bdcol, fillcol);
+        bound_fill(x - 1, y - 1, bdcol, fillcol);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+/* Line Generation */
+void DDA(int x1, int y1, int x2, int y2, int col)
+{
+    int dx, dy, steps;
+    float x, y, xinc, yinc;
+    dx = x2 - x1;
+    dy = y2 - y1;
+    if (dx > dy)
+        steps = dx;
+    else
+        steps = dy;
+    xinc = (float)dx / steps;
+    yinc = (float)dy / steps;
+
+    x = x1;
+    y = y1;
+    for (int i = 0; i < steps; i++)
+    {
+        putpixel(x, y, col);
+        x = x + xinc;
+        y = y + yinc;
+        delay(5);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void b_line(int x1, int y1, int x2, int y2)
+{
+    int x, y, dx, dy, p;
+    dx = x2 - x1;
+    dy = y2 - y1;
+    x = x1;
+    y = y1;
+
+    if (dx > dy)
+    {
+        p = 2 * dy - dx;
+        while (x <= x2)
+        {
+            putpixel(x, y, 15);
+            x++;
+            if (p < 0)
+            {
+                p = p + 2 * dy;
+            }
+            else
+            {
+                p = p + 2 * (dy - dx);
+                y++;
+            }
+        }
+    }
+    else
+    {
+        p = 2 * dx - dy;
+        while (y <= y2)
+        {
+            putpixel(x, y, 15);
+            y++;
+            if (p < 0)
+            {
+                p = p + 2 * dy;
+            }
+            else
+            {
+                p = p + 2 * (dx - dy);
+                x++;
+            }
+        }
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+/* Circle Generation */
+void drawcircle(int xc, int yc, int x, int y)
+{
+    putpixel(xc + x, yc + y, RED);
+    putpixel(xc + x, yc - y, GREEN);
+    putpixel(xc - x, yc + y, GREEN);
+    putpixel(xc - x, yc - y, RED);
+    putpixel(xc + y, yc + x, CYAN);
+    putpixel(xc + y, yc - x, YELLOW);
+    putpixel(xc - y, yc + x, YELLOW);
+    putpixel(xc - y, yc - x, CYAN);
+    delay(100);
+}
+void b_circle(int xc, int yc, int r)
+{
+    int x = 0, y = r;
+    int p = 3 - 2 * r;
+    while (x <= y)
+    {
+        drawcircle(xc, yc, x, y);
+        if (p < 0)
+        {
+            p = p + 4 * x + 6;
+        }
+        else
+        {
+            p = p + 4 * (x - y) + 10;
+            y--;
+        }
+        x++;
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+/* 2D Translation */
+void translate(int a[][2], int edges, int tx, int ty)
+{
+    int i, b[100][2];
+    for (i = 0; i < edges; i++)
+    {
+        b[i][0] = a[i][0] + tx;
+        b[i][1] = a[i][1] + ty;
+    }
+    b[i][0] = b[0][0];
+    b[i][1] = b[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(b[i][0], b[i][1], b[i + 1][0], b[i + 1][1]);
+    }
+}
+void translateDemo()
+{
+    int i, edges, tx, ty, a[100][2];
+
+    printf("Enter No Of Edges : ");
+    scanf("%d", &edges);
+
+    for (i = 0; i < edges; i++)
+    {
+        printf("Vertex %d : ", i + 1);
+        scanf("%d", &a[i][0]);
+        scanf("%d", &a[i][1]);
+    }
+    a[i][0] = a[0][0];
+    a[i][1] = a[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(a[i][0], a[i][1], a[i + 1][0], a[i + 1][1]);
+    }
+
+    printf("Enter Translating Factor : ");
+    scanf("%d %d", &tx, &ty);
+    cleardevice();
+    translate(a, edges, tx, ty);
+}
+
+--------------------------------------------------------------------------------------------
+
+/* 2D Scaling */
+void scale(int a[][2], int edges, int sx, int sy)
+{
+    int i, b[100][2];
+    for (i = 0; i < edges; i++)
+    {
+        b[i][0] = a[i][0] * sx;
+        b[i][1] = a[i][1] * sy;
+    }
+    b[i][0] = b[0][0];
+    b[i][1] = b[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(b[i][0], b[i][1], b[i + 1][0], b[i + 1][1]);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void scaleDemo()
+{
+    int i, edges, sx, sy, a[100][2];
+
+    printf("Enter No Of Edges : ");
+    scanf("%d", &edges);
+
+    for (i = 0; i < edges; i++)
+    {
+        printf("Vertex %d : ", i + 1);
+        scanf("%d", &a[i][0]);
+        scanf("%d", &a[i][1]);
+    }
+    a[i][0] = a[0][0];
+    a[i][1] = a[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(a[i][0], a[i][1], a[i + 1][0], a[i + 1][1]);
+    }
+
+    printf("Enter Scaling Factor : ");
+    scanf("%d %d", &sx, &sy);
+    cleardevice();
+    scale(a, edges, sx, sy);
+}
+
+--------------------------------------------------------------------------------------------
+
+/* 2D Rotation */
+void rotate(int a[][2], int edges, float angle, int Xm, int Ym)
+{
+    int i, x, y, b[100][2];
+    for (i = 0; i < edges; i++)
+    {
+        x = a[i][0] - Xm;
+        y = a[i][1] - Ym;
+
+        b[i][0] = Xm + (x * COS(angle) - y * SIN(angle));
+        b[i][1] = Ym + (y * COS(angle) + x * SIN(angle));
+    }
+    b[i][0] = b[0][0];
+    b[i][1] = b[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(b[i][0], b[i][1], b[i + 1][0], b[i + 1][1]);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void rotateDemo()
+{
+    int i, edges, Xm, Ym, a[100][2];
+    float angle;
+
+    printf("Enter No Of Edges : ");
+    scanf("%d", &edges);
+
+    for (i = 0; i < edges; i++)
+    {
+        printf("Vertex %d : ", i + 1);
+        scanf("%d", &a[i][0]);
+        scanf("%d", &a[i][1]);
+    }
+    a[i][0] = a[0][0];
+    a[i][1] = a[0][1];
+
+    for (i = 0; i < edges; i++)
+    {
+        line(a[i][0], a[i][1], a[i + 1][0], a[i + 1][1]);
+    }
+
+    printf("Enter Angle : ");
+    scanf("%f", &angle);
+    printf("Enter Arbitrary Point : ");
+    scanf("%d %d", &Xm, &Ym);
+    cleardevice();
+    rotate(a, edges, angle, Xm, Ym);
+}
+
+--------------------------------------------------------------------------------------------
+
+/* 3D Translation */
+void translate3D(int x[], int y[], int edges, int depth, int tx, int ty)
+{
+    int i, j, k = 0;
+    for (j = 0; j < 2; j++)
+    {
+        for (i = 0; i < edges; i++)
+        {
+            if (i != edges - 1)
+                line(x[i] + tx + k, y[i] + ty - k, x[i + 1] + tx + k, y[i + 1] + ty - k);
+            else
+                line(x[i] + tx + k, y[i] + ty - k, x[0] + tx + k, y[0] + ty - k);
+        }
+        k = depth;
+    }
+    for(i = 0; i < edges; i++){
+        line(x[i] + tx, y[i] + tx,  x[i] + tx + depth, y[i] + ty - depth);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void translateDemo3D()
+{
+    int i, edges, depth, tx = 0, ty = 0, x[100], y[100];
+    printf("Enter No Of Edges : ");
+    scanf("%d", &edges);
+    for (i = 0; i < edges; i++)
+    {
+        printf("Vertex %d : ", i + 1);
+        scanf("%d", &x[i]);
+        scanf("%d", &y[i]);
+    }
+    printf("Depth :");
+    scanf("%d", &depth);
+    translate3D(x, y, edges, depth, tx, ty);
+    printf("Enter Translating Factor : ");
+    scanf("%d %d", &tx, &ty);
+    translate3D(x, y, edges, depth, tx, ty);
+}
+
+--------------------------------------------------------------------------------------------
+
+/* 3D Scaling */
+void scale3D(int x[], int y[], int edges, int depth, int sx, int sy, int sz)
+{
+    int i, j, k = 0;
+    depth = depth * sz;
+    for (j = 0; j < 2; j++)
+    {
+        for (i = 0; i < edges; i++)
+        {
+            if (i != edges - 1)
+                line(x[i] * sx + k, y[i] * sy - k, x[i + 1] * sx + k, y[i + 1] * sy - k);
+            else
+                line(x[i] * sx + k, y[i] * sy - k, x[0] * sx + k, y[0] * sy - k);
+        }
+        k = depth;
+    }
+    for(i = 0; i < edges; i++){
+        line(x[i] * sx, y[i] * sy,  x[i] * sx + depth, y[i] * sy - depth);
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+void scaleDemo3D()
+{
+    int i, edges, depth, sx = 1, sy = 1, sz = 1, x[100], y[100];
+    printf("Enter No Of Edges : ");
+    scanf("%d", &edges);
+    for (i = 0; i < edges; i++)
+    {
+        printf("Vertex %d : ", i + 1);
+        scanf("%d", &x[i]);
+        scanf("%d", &y[i]);
+    }
+    printf("Depth :");
+    scanf("%d", &depth);
+    scale3D(x, y, edges, depth, sx, sy, sz);
+    printf("Enter Scaling Factor : ");
+    scanf("%d %d", &sx, &sy, &sz);
+    scale3D(x, y, edges, depth, sx, sy, sz);
+}
+
+--------------------------------------------------------------------------------------------
+
+int main()
+{
+    int gd = DETECT, gm;
+    initgraph(&gd, &gm, (char *)"");
+
+    getch();
+    return 0;
+}

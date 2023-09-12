@@ -1,0 +1,4 @@
+JAVA = PIC - Annoying
+GAD = WPD - Good
+MIC <<<<< BCC,EEC,DTE - Headache
+DCC = CPH (with extreme theory)

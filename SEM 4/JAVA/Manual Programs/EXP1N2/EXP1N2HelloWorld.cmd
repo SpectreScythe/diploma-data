@@ -1,0 +1,3 @@
+javac EXP1N2HelloWorld.java
+java EXP1N2HelloWorld
+pasue

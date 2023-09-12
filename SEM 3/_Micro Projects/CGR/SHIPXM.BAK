@@ -1,0 +1,256 @@
+#include <stdio.h>
+#include <conio.h>
+#include <dos.h>
+#include <graphics.h>
+
+/*-------------------------------------------------------------------------------*/
+
+//GLOBAL DECLARATIONS
+
+void bfa(int x, int y, int ncolor, int dcolor);
+void ship(int i);
+void boom();
+void bigboom();
+void shipwreck(int x, int y);
+void meteor(int i);
+void wave();
+void stars();
+int i, x = 0, y = 300;
+
+/*-------------------------------------------------------------------------------*/
+
+int main()
+{
+	int gd = DETECT, gm;
+	initgraph(&gd, &gm, " ");
+
+	for (i = 0; i < 280; i++)
+	{
+		ship(i);
+		stars();
+		meteor(i);
+		wave();
+		delay(10);
+		cleardevice();
+	}
+
+	//AFTER COLLISION
+
+	for (i = 0; i < 50; i++)
+	{
+		bigboom();
+		boom(350, 250 - i);
+		shipwreck(280, 300 + i);
+		stars();
+		wave();
+		delay(10);
+		cleardevice();
+	}
+
+	//	ship(50);
+
+	getch();
+	closegraph();
+	return 0;
+}
+
+/*-------------------------------------------------------------------------------*/
+
+void ship(int i)
+{
+	line(x + i, y, x + 45 + i, y + 50);
+	line(x + i, y, x + 150 + i, y);
+
+	line(x + 45 + i, y + 50, x + 250 + i, y + 50);
+	line(x + 27 + i, y + 30, x + 263 + i, y + 30);
+
+	//	bfa(x + 55, y + 40, RED);
+
+	line(x + 250 + i, y + 50, x + 300 + i, y - 22);
+
+	line(x + 300 + i, y - 22, x + 200 + i, y - 22);
+	line(x + 200 + i, y - 22, x + 150 + i, y);
+
+	line(x + 20 + i, y, x + 20 + i, y - 80);
+	line(x + 50 + i, y, x + 50 + i, y - 80);
+
+	line(x + 20 + i, y - 80, x + 50 + i, y - 80);
+	line(x + 20 + i, y - 50, x + 50 + i, y - 50);
+
+	line(x + 20 + i, y - 30, x + 50 + i, y - 30);
+	line(x + 80 + i, y, x + 80 + i, y - 100);
+
+	line(x + 220 + i, y - 22, x + 80 + i, y - 100);
+
+	circle(x + 120 + i, y - 33, 10);
+}
+void stars()
+{
+	outtextxy(x + 10, y - 220, "*");
+	outtextxy(x + 50, y - 210, "*");
+	outtextxy(x + 40, y - 290, "*");
+	outtextxy(x + 70, y - 270, "*");
+	outtextxy(x + 120, y - 220, "*");
+
+	outtextxy(x + 170, y - 370, "*");
+	outtextxy(x + 130, y - 860, "*");
+	outtextxy(x + 160, y - 330, "*");
+	outtextxy(x + 140, y - 420, "*");
+	outtextxy(x + 150, y - 223, "*");
+
+	outtextxy(x + 180, y - 120, "*");
+	outtextxy(x + 200, y - 432, "*");
+	outtextxy(x + 630, y - 120, "*");
+	outtextxy(x + 540, y - 520, "*");
+	outtextxy(x + 600, y - 550, "*");
+
+	outtextxy(x + 590, y - 470, "*");
+	outtextxy(x + 440, y - 300, "*");
+	outtextxy(x + 398, y - 100, "*");
+	outtextxy(x + 555, y - 190, "*");
+	outtextxy(x + 654, y - 10, "*");
+
+	outtextxy(x + 444, y - 180, "*");
+	outtextxy(x + 659, y - 233, "*");
+	outtextxy(x + 564, y - 180, "*");
+	outtextxy(x + 487, y - 120, "*");
+	outtextxy(x + 630, y - 370, "*");
+
+	setfillstyle(1, 15);
+
+	pieslice(x + 220, y - 200, 0, 360, 35); 	// Moon
+}
+
+/*-------------------------------------------------------------------------------*/
+
+void meteor(int i)
+{
+	setcolor(YELLOW);
+	setfillstyle(1, RED);
+
+	circle(635 - i + 80, 0 + i - 80, 35);		//Big
+
+	circle(635 - i + 140, 0 + i - 120, 8);		//Trail
+
+	circle(635 - i + 130, 0 + i - 70, 10);		//Trail
+
+	circle(635 - i + 160, 0 + i - 90, 15);  	//Trail
+
+	floodfill(635 - i + 160, 0 + i - 90, YELLOW);
+	floodfill(635 - i + 130, 0 + i - 70, YELLOW);
+	floodfill(635 - i + 140, 0 + i - 120, YELLOW);
+	floodfill(635 - i + 80, 0 + i - 80, YELLOW);
+	setcolor(WHITE);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+void shipwreck(int x, int y)
+{
+	line(x, y, x + 45, y + 50);
+	line(x, y, x + 65, y);				   		//
+	line(x + 65, y, x + 100, y + 30);	   		//
+	line(x + 100, y + 30, x + 85, y + 50);		//
+
+	line(x + 45, y + 50, x + 85, y + 50);
+	line(x + 130, y + 50, x + 250, y + 50);
+	line(x + 250, y + 50, x + 300, y - 22);
+	line(x + 300, y - 22, x + 200, y - 22);
+
+	line(x + 200, y - 22, x + 150, y);			//
+	line(x + 150, y, x + 120, y);				//
+	line(x + 120, y, x + 150, y + 30);			//
+	line(x + 150, y + 30, x + 130, y + 50); 	//
+
+	line(x + 27, y + 30, x + 100, y + 30);		//
+	line(x + 150, y + 30, x + 263, y + 30);
+	line(x + 20, y, x + 14, y - 30);	  		// left
+	line(x + 50, y, x + 43, y - 30);	  		// right
+
+	line(x + 14, y - 30, x + 43, y - 30);
+	line(x + 132, y - 60, x + 130, y);
+	// line(x+80,y,x+80,y-100);
+	line(x + 220, y - 22, x + 132, y - 60);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+void wave()
+{
+	line(0, y + 50, getmaxx(), y + 50);		// wave
+	setfillstyle(9, LIGHTBLUE);
+	floodfill(x, y + 60, 15);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+/*
+void bfa(int x, int y, int ncolor){
+ if(getpixel(x,y) != ncolor && getpixel(x,y) != WHITE){
+  putpixel(x,y,ncolor);
+  bfa(x+1,y,ncolor);
+  bfa(x-1,y,ncolor);
+  bfa(x,y+1,ncolor);
+  bfa(x,y-1,ncolor);
+ }
+} */
+
+/*-------------------------------------------------------------------------------*/
+
+void bigboom()
+{
+	//	int xcloud = 350;
+	//	int ycloud = 250;
+
+	setfillstyle(SOLID_FILL, WHITE);
+
+	ellipse(350, 255, 0, 180, 30, 25);		//Shockwaves
+
+	ellipse(380, 280, 285, 90, 40, 30);		//Shockwaves
+
+	ellipse(365, 310, 210, 360, 25, 30);	//Shockwaves
+
+	ellipse(330, 300, 80, 300, 30, 30);		//Shockwaves
+
+	ellipse(320, 280, 85, 235, 30, 25);		//Shockwaves
+
+	floodfill(350, 280, WHITE);
+}
+
+/*-------------------------------------------------------------------------------*/
+
+void boom(int x, int y)
+{
+
+	int s_angle = 180;
+	int e_angle = 0;
+
+	int x_rad = 0;
+	int y_rad = 0;
+
+	ellipse(x, y - i, s_angle, e_angle, x_rad, y_rad);
+
+	ellipse(x + 30, y - 50 - i, s_angle + 20, e_angle + 40, x_rad + 3, y_rad + 50);
+
+	ellipse(x - 40, y + 20 - i, s_angle - 90, e_angle + 180, x_rad + 2, y_rad + 30);
+
+	ellipse(x + 30, y + 20 - i, s_angle - 90, e_angle + 180, x_rad + 2, y_rad + 30);
+
+	ellipse(x + 50, y - 20 - i, s_angle + 40, e_angle + 100, x_rad + 3, y_rad + 40);
+
+	ellipse(x - 30, y + 40 - i, s_angle - 60, e_angle + 120, x_rad + 4, y_rad + 35);
+
+	circle(x + 20 + i, y - 10, 10);
+
+	circle(x + 40 - i, y + 20, 10);
+
+	circle(x + 30 + i, y - 50, 10);
+
+	//	floodfill(340,240,WHITE);
+
+	//	line(x+10+i,y+20+i,x-20,y-10);
+
+	delay(10);
+}
+
+/*-------------------------------------------------------------------------------*/

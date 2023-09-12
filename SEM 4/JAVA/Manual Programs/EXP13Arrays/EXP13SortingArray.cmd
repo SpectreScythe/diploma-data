@@ -1,0 +1,3 @@
+javac EXP13SortingArray.java
+java EXP13SortingArray
+pause

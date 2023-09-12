@@ -1,0 +1,3 @@
+javac EXP5StraightRightTri.java
+java EXP5StraightRightTri
+pause

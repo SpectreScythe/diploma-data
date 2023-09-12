@@ -1,0 +1,3 @@
+javac EXP10ConstructorBook.java
+java EXP10ConstructorBook
+pause

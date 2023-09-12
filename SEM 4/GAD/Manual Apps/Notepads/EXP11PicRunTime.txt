@@ -1,0 +1,16 @@
+
+Public Class Form1
+
+    Dim runImg As New PictureBox()
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+
+        runImg.Location = New Point(0, 0)
+        runImg.Size = New Size(1280, 682)
+        runImg.Image = Image.FromFile("C:\Users\admin\Desktop\<pic_name>.jpg")
+
+        Me.Controls.Add(runImg)
+
+    End Sub
+End Class
+s

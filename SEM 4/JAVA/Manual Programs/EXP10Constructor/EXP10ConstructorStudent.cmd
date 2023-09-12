@@ -1,0 +1,3 @@
+javac EXP10ConstructorStudent.java
+java EXP10ConstructorStudent
+pause

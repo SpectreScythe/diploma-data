@@ -1,0 +1,49 @@
+Module Module1
+
+    Sub Main()
+        Dim choice As Integer
+        choice = InputBox("Enter your choice")
+
+        Select Case (choice)
+
+            Case 1
+                MsgBox("Jan")
+
+            Case 2
+                MsgBox("Feb")
+
+            Case 3
+                MsgBox("Mar")
+
+            Case 4
+                MsgBox("Apr")
+
+            Case 5
+                MsgBox("May")
+
+            Case 6
+                MsgBox("Jun")
+
+            Case 7
+                MsgBox("Jul")
+
+            Case 8
+                MsgBox("Aug")
+
+            Case 9
+                MsgBox("Sep")
+
+            Case 10
+                MsgBox("Oct")
+
+            Case 11
+                MsgBox("Nov")
+
+            Case 12
+                MsgBox("Dec")
+
+        End Select
+
+    End Sub
+
+End Module

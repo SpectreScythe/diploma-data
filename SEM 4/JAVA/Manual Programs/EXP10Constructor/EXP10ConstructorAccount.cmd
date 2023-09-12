@@ -1,0 +1,3 @@
+javac EXP10ConstructorAccount.java
+java EXP10ConstructorAccount
+pause

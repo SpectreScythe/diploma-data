@@ -1,0 +1,28 @@
+Module Module1
+
+    Sub Main()
+        Dim nyear As Integer
+        nyear = InputBox("Enter any Year")
+
+        If (nyear Mod 400 = 0) Then
+
+            MsgBox("Its a leap year")
+
+        ElseIf (nyear Mod 100 = 0) Then
+
+            MsgBox("Not a leap year")
+
+        ElseIf (nyear Mod 4 = 0) Then
+
+            MsgBox("Its a leap year")
+
+        Else
+
+            MsgBox("Not a leap year 210451")
+
+        End If
+
+
+    End Sub
+
+End Module

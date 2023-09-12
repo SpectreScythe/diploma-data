@@ -1,0 +1,3 @@
+javac EXP5primeOrNot.java
+java EXP5primeOrNot
+pause

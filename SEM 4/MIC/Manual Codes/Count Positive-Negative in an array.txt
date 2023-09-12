@@ -1,0 +1,24 @@
+.model small
+.data
+array dw -0009H, 0010H, -0008H, 0001H, 0002H
+pos dw 00H
+neg1 dw 00H
+.code
+movax, @data
+mov ds, ax
+mov cx, 0005H
+lea si, array
+up: mov al, [si]
+rol al, 1
+Jc nev			
+Inc pos
+Jmp dn
+nev: inc neg1
+dn: add si, 2
+loop up 
+exit: movax, pos
+Mov bx, neg1
+mov ah, 4CH
+int 21H 
+ends
+end

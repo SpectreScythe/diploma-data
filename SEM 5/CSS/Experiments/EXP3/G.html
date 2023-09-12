@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>EXP 3 - G</title>
+  <script>
+    let myArray = [];
+    myArray[0] = "Spectre";
+    myArray[1] = "Firebreak";
+    myArray[2] = "Outrider";
+    myArray[3] = "Blackjack";
+    document.write("<h3>Array Elements:</h3>");
+    for (const item of myArray) {
+      document.write(item + "   ");
+    }
+    let delValues = "Outrider";
+    let newArray = myArray.filter(e => e !== delValues);
+    document.write("<h3>Array Elements after adding an element:</h3>");
+    for (const item of newArray) {
+      document.write(item + "   ");
+    }
+  </script>
+  <style>
+    * {
+      color: #ccc;
+    }
+  </style>
+</head>
+
+<body style="background-color: #111">
+<footer>
+  <h3>Abdurrahman Qureshi</h3>
+  <h3>210451</h3>
+</footer>
+</body>
+</html>

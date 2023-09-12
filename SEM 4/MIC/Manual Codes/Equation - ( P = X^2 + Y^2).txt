@@ -1,0 +1,23 @@
+.model small
+	
+	SumOfSquares Macro m , n
+		mov al , m
+		mul al
+		mov bl , n
+		mul bl
+		add al , bl
+	endm
+	
+	.data 
+		x db 03h
+		y db 04h
+		p db 00h
+	.code
+		mov ax , @data
+		mov ds , ax
+		SumOfSquares x , y
+		mov p , al
+		mov ah , 4ch
+		int 21h
+	ends
+end	

@@ -1,0 +1,69 @@
+import java.util.*;
+import java.lang.*;
+
+class Student
+{
+	protected String name;
+	protected int id;
+	
+	Student(int i,String n)	
+	{
+		id = i;
+		name = n;
+	}
+	
+	void display()	
+	{
+		System.out.println("Unique ID of Student : \t" + id);
+		System.out.println("Name of Student : \t" + name);
+	}
+}
+
+class Exams extends Students
+{
+	protected int m1;
+	protected int m2;
+
+	Exams(int mrk1 , int mrk2)
+	{
+		m1 = mrk1;
+		m2 = mrk2;
+	}
+
+	void display()	
+	{	
+		super.display();
+		System.out.println("Marks in Subject A : \t" + mrk1);
+		System.out.println("Marks in Subject B : \t" + mrk2);
+	}
+	
+}
+
+interface Sports 
+{
+	protected int smrk = 7;
+}
+
+class Result extends Exams implements Sports
+{
+	protected String nameS;
+	protected int id;
+	protected int total = 0;
+	protected int m1;
+	protected int m2;
+	
+	Result(String n , int i , int m , int n)
+	{
+		nameS = n;
+		id = i;
+		m1 = m;
+		m2 = n;
+		total = m1 + m2;	
+	}
+
+	void display()
+	{
+		super.display();
+		System.out.println("Total Marks : \t\t" + total);
+	}
+}

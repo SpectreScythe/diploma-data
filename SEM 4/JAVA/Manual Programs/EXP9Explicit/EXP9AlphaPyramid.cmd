@@ -1,0 +1,3 @@
+javac EXP9AlphaPyramid.java
+java EXP9AlphaPyramid
+pause

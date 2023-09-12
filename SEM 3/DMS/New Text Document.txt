@@ -1,0 +1,21 @@
+insert into emp values(5603,'Skyler','Salesman','Philadelphia); 
+insert into emp values(5603,'Chris','Salesman','Philadelphia'); 
+insert into emp values(5603,'Mike','Manager','Philadelphia'); 
+insert into emp values(5603,'White','Manager','Philadelphia'); 
+insert into emp values(5603,'Jesse','Analyst','Philadelphia');
+
+insert into emp values(5606,'Marie','Analyst','Philadelphia'); 
+insert into emp values(5606,'Hank','Salesman','Philadelphia'); 
+insert into emp values(5606,'Thomas','Salesman','Philadelphia');  
+insert into emp values(5606,'Alex','Salesman','Philadelphia'); 
+insert into emp values(5606,'Jones','Salesman','Philadelphia');
+
+insert into emp values(5609,'Noah','Manager','Philadelphia'); 
+insert into emp values(5609,'Nike','Manager','Philadelphia');
+insert into emp values(5609,'Combo','Manager','Philadelphia'); 
+insert into emp values(5609,'Remus','Manager','Philadelphia');
+insert into emp values(5609,'Juluis','Analyst','Philadelphia'); 
+
+-----------------------------------------------------------------------------------------------------
+
+

@@ -1,0 +1,3 @@
+javac EXP13SumAvgMxN.java
+java EXP13SumAvgMxN
+pause

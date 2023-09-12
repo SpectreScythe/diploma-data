@@ -1,0 +1,3 @@
+javac EXP13SearchNInArray.java
+java EXP13SearchNInArray
+pause

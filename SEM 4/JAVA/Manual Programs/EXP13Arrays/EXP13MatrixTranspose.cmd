@@ -1,0 +1,3 @@
+javac EXP13MatrixTranspose.java
+java EXP13MatrixTranspose
+pause

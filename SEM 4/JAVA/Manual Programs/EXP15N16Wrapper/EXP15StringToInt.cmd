@@ -1,0 +1,3 @@
+javac EXP15StringToInt.java
+java EXP15StringToInt
+pause
