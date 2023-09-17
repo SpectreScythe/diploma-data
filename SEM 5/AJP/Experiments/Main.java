@@ -1,34 +1,57 @@
+import javax.swing.*;
+import javax.swing.tree.DefaultMutableTreeNode;
 import java.awt.*;
-import java.awt.event.*;
 
-public class Main extends Frame {
-    MenuBar mb;
-    MenuItem m1, m2, m3, m4;
-    Menu mn;
-    MenuShortcut ms;
+public class Main {
+    public Main() {
+        JFrame frame = new JFrame("My System Tree");
+        frame.setBackground(Color.DARK_GRAY);
+        frame.setForeground(Color.WHITE);
 
-    Main() {
-        setTitle("MenuBar Demo");
-        setSize(500, 500);
-        setLayout(null);
-        ms = new MenuShortcut(KeyEvent.VK_X);
-        mn = new Menu("File");
-        mb = new MenuBar();
-        m1 = new MenuItem("New...");
-        m2 = new MenuItem("Open...");
-        m3 = new MenuItem("Save As...");
-        m4 = new MenuItem("Exit", ms);
-        mn.add(m1);
-        mn.add(m2);
-        mn.add(m3);
-        mn.addSeparator();
-        mn.add(m4);
-        mb.add(mn);
-        setMenuBar(mb);
+        DefaultMutableTreeNode root = new DefaultMutableTreeNode("This PC");
+
+        DefaultMutableTreeNode folder4 = new DefaultMutableTreeNode("Windows");
+        DefaultMutableTreeNode folder3 = new DefaultMutableTreeNode("Users");
+        DefaultMutableTreeNode folder1 = new DefaultMutableTreeNode("qarq90");
+        DefaultMutableTreeNode folder2 = new DefaultMutableTreeNode("Program Files");
+
+        DefaultMutableTreeNode file1 = new DefaultMutableTreeNode("Diploma");
+        DefaultMutableTreeNode file2 = new DefaultMutableTreeNode("Lock Screen");
+        DefaultMutableTreeNode file3 = new DefaultMutableTreeNode("Softwares");
+
+        DefaultMutableTreeNode file11 = new DefaultMutableTreeNode("Git");
+        DefaultMutableTreeNode file12 = new DefaultMutableTreeNode("JetBrains");
+        DefaultMutableTreeNode file13 = new DefaultMutableTreeNode("CClearner");
+
+        root.add(folder1);
+        root.add(folder2);
+        root.add(folder3);
+        root.add(folder4);
+
+        folder1.add(file1);
+        folder1.add(file2);
+        folder1.add(file3);
+
+        folder2.add(file11);
+        folder2.add(file12);
+        folder2.add(file13);
+
+        JTree tree = new JTree(root);
+
+        JScrollPane scrollPane = new JScrollPane(tree);
+
+        tree.setBackground(Color.DARK_GRAY);
+        tree.setForeground(Color.WHITE);
+        tree.setSize(400,300);
+
+        frame.add(scrollPane);
+
+        frame.setSize(400, 300);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        frame.setVisible(true);
     }
 
     public static void main(String[] args) {
-        Main md = new Main();
-        md.setVisible(true);
+            new Main();
     }
 }

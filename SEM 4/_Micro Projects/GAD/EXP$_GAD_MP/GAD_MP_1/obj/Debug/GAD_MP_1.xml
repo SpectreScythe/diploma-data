@@ -359,6 +359,10 @@ GAD_MP_1
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
+</member><member name="P:GAD_MP_1.My.Resources.Resources.nothing_found_200px1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:GAD_MP_1.My.Resources.Resources.orangejuice">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
