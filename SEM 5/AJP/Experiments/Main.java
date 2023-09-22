@@ -1,47 +1,60 @@
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.KeyAdapter;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+import java.awt.event.*;
 
 public class Main {
-    JProgressBar myProgressBar;
-    JLabel JL;
 
     public Main() {
-        JFrame frame = new JFrame("My Progress Bar");
+        JFrame frame = new JFrame("My Key Events");
         frame.setBackground(Color.DARK_GRAY);
         frame.setForeground(Color.WHITE);
+        frame.setLayout(new BorderLayout());
 
-        Panel P = new Panel();
+        JPanel P = new JPanel();
+        P.setLayout(new FlowLayout());
 
-        JL = new JLabel("0%");
-        myProgressBar = new JProgressBar(1, 500);
-        myProgressBar.setSize(200,200);
+        JLabel label1 = new JLabel("Number 1:");
+        JTextField n1 = new JTextField(10);
 
-        P.setLayout(new FlowLayout(1));
+        JLabel label2 = new JLabel("Number 2:");
+        JTextField n2 = new JTextField(10);
 
-        P.add(new JLabel("Progress Bar"));
-        P.add(myProgressBar);
-        P.add(JL);
+        JPanel buttonPanel = new JPanel();
+        JButton btn = new JButton("Multiply");
 
-        P.setSize(100,100);
+        buttonPanel.add(btn);
 
-        frame.add(P);
+        JLabel rLabel = new JLabel();
 
+        btn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                try {
+                    double num1 = Double.parseDouble(n1.getText());
+                    double num2 = Double.parseDouble(n2.getText());
+                    double product = num1 * num2;
+                    rLabel.setText("Product: " + product);
+                } catch (NumberFormatException ex) {
+                    rLabel.setText("Invalid input. Please enter valid numbers.");
+                }
+            }
+        });
+
+        P.add(label1);
+        P.add(n1);
+        P.add(label2);
+        P.add(n2);
+
+        frame.add(P, BorderLayout.NORTH);
+        frame.add(buttonPanel, BorderLayout.CENTER);
+        frame.add(rLabel, BorderLayout.SOUTH);
         frame.setSize(400, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
 
-        loadProgressBar();
-    }
-
-    public void loadProgressBar() {
-        for (int i = 1; i <= 500; i+=5) {
-            myProgressBar.setValue(i);
-            JL.setText(i + "%");
-            try {
-                Thread.sleep(100);
-            } catch (Exception ignored) {
-            }
-        }
     }
 
     public static void main(String[] args) {
