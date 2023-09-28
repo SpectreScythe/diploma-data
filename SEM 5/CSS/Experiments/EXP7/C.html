@@ -1,0 +1,35 @@
+<html lang="">
+<head><title>EXP7C</title>
+
+<style>
+    body{
+        font-family: sans-serif;
+    }
+    input{
+        width: 10%;
+        height: 10%;
+    }
+</style>
+</head>
+<body>
+<h1>EXP7C</h1>
+<form name=form1>
+    What is your attribute name: <input type="text" name="text1">
+    <h3>Click the button below to set the attribute</h3>
+    <input type="button" value="setAttribute" id="btn1" onclick="clickEvent()"><br>
+    <script>
+        function clickEvent() {
+            var a = document.getElementById("btn1");
+            if (a.value == "setAttribute") {
+                a.setAttribute("name", "Spectre Scythe");
+                a.setAttribute("value", "removeAttribute");
+            } else if (a.value == "removeAttribute") {
+                a.removeAttribute("name");
+                a.setAttribute("value", "setAttribute");
+            }
+            document.form1.text1.value = a.getAttribute("name");
+        }
+    </script>
+</form>
+</body>
+</html>

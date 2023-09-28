@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>EXP8B</title>
+</head>
+<body>
+<h1>EXP8B</h1>
+
+<label for="category">Select a Category:</label>
+<select id="category">
+    <option value="fruits">Fruits</option>
+    <option value="vegetables">Vegetables</option>
+</select>
+
+<label for="item">Select an Item:</label>
+<select id="item">
+</select>
+
+<script>
+    const options = {
+        fruits: ["Apple", "Banana", "Orange", "Mango"],
+        vegetables: ["Carrot", "Broccoli", "Spinach", "Potato"]
+    };
+
+    function populateItems() {
+        const categorySelect = document.getElementById("category");
+        const itemSelect = document.getElementById("item");
+        const selectedCategory = categorySelect.value;
+
+        itemSelect.innerHTML = "";
+
+        options[selectedCategory].forEach(function(optionText) {
+            const option = document.createElement("option");
+            option.value = optionText;
+            option.text = optionText;
+            itemSelect.appendChild(option);
+        });
+    }
+
+    populateItems();
+
+    // Add an event listener to the category select element
+    const categorySelect = document.getElementById("category");
+    categorySelect.addEventListener("change", populateItems);
+</script>
+</body>
+</html>

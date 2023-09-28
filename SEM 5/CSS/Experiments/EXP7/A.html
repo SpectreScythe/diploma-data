@@ -1,0 +1,100 @@
+<html>
+<head><title>EXP7A</title>
+<style>
+    body{
+        background-color: #222222;
+        color: #ccc;
+    }
+    div{
+        display: flex;
+        align-content: center;
+        margin: 1rem;
+    }
+    h2{
+        width: 50%;
+    }
+    input{
+        background-color: #222222;
+        color: #ccc;
+        width: 20%;
+    }
+</style>
+</head>
+<body>
+<h1>EXP7A</h1>
+<form name="form1" onsubmit="submitEvent()">
+    <div>
+        <h2>onFocus & onBlur: </h2><input type="text" id="text1" onfocus="focusEvent()" onblur="blurEvent()"><br><br>
+    </div>
+    <div>
+        <h2>onChange: </h2><input type="text" id="text2" onchange="changeEvent()">:
+        <input type="text" id="text21"><br><br>
+    </div>
+        <div>
+            <h2>onClick: </h2><input type="button" id="btn1" value="Click me" onclick="clickEvent()"><br><br>
+
+        </div>
+        <div>
+            <h2>onMouseOver: </h2><input type="text" id="text3" value="Old Text" onmouseover="mouseoverEvent()"
+                                         onmouseout="mouseoutEvent()"><br><br>
+        </div>
+        <div>
+            <h2>onKeyUp & onKeyPress: </h2><input type="text" id="text4" onkeypress="keypressEvent()"
+                                                  onkeyup="keypupEvent()"> ------
+            <input type="text" id="text41"><br><br>
+        </div>
+        <div>
+            <h2>onMouseUp & onMouseDown: </h2><input type="text" id="text5" onmouseup="mouseupEvent()"
+                                                     onmousedown="mousedownEvent()"><br><br>
+            <input type="submit" id="submit" value="Submit">
+        </div>
+</form>
+<script>
+    var a = 0, b = 0;
+
+    function focusEvent() {
+        document.getElementById("text1").style.boxShadow = "10px 10px 10px #ccc";
+    }
+
+    function blurEvent() {
+        document.getElementById("text1").style.boxShadow = "7px 7px 10px black";
+    }
+
+    function changeEvent() {
+        document.getElementById("text21").value = "Text changed " + ++b + " times";
+    }
+
+    function clickEvent() {
+        document.getElementById("btn1").value = ++a + " times clicked";
+    }
+
+    function mouseoverEvent() {
+        document.getElementById("text3").value = "New Text"
+    }
+
+    function mouseoutEvent() {
+        document.getElementById("text3").value = "Old Text"
+    }
+
+    function keypressEvent() {
+        document.getElementById("text41").value = "Key Pressed"
+    }
+
+    function keypupEvent() {
+        document.getElementById("text41").value = "Key Released"
+    }
+
+    function mouseupEvent() {
+        document.getElementById("text5").value = "Mouse Up"
+    }
+
+    function mousedownEvent() {
+        document.getElementById("text5").value = "Mouse Down"
+    }
+
+    function submitEvent() {
+        alert("Form Submitted.")
+    }
+</script>
+</body>
+</html>
