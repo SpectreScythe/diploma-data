@@ -1,16 +1,8 @@
 let myString = "54";
 
-function stringToNum(str) {
-  return Number(str);
-}
-
-function stringToInt(str) {
-  return parseInt(str);
-}
-
-function stringToFloat(str) {
-  return parseFloat(str);
-}
+const stringToNum = (str) => Number(str);
+const stringToInt = (str) => parseInt(str);
+const stringToFloat = (str) => parseFloat(str);
 
 let myNum = stringToNum(myString);
 let myFloat = stringToFloat(myString);
