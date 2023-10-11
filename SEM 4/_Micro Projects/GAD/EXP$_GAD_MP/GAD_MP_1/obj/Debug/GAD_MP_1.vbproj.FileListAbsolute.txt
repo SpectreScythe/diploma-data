@@ -461,3 +461,7 @@ C:\qarq90\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_M
 C:\qarq90\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.GAD_MP_SignUp_Loading.resources
 C:\qarq90\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.Resources.resources
 C:\qarq90\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.vbproj.GenerateResource.Cache
+D:\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\bin\Debug\GAD_MP_1.exe.config
+D:\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.exe
+D:\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.xml
+D:\Diploma\SEM 4\_Micro Projects\GAD\EXP$_GAD_MP\GAD_MP_1\obj\Debug\GAD_MP_1.pdb
