@@ -1,24 +1,28 @@
-import java.net.*;
-import java.util.Scanner;
+import java.sql.*;
+public class exp18q2
+{
+    public static void main(String args[])
+    {
+        try
+        {
+            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Connection con=DriverManager.getConnection("jdbc:odbc:exp13");
+            Statement st=con.createStatement();
 
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+            ResultSet rs=st.executeQuery("Select * from Student where sper>70");
 
-        System.out.print("Enter a hostname (e.g., www.google.com): ");
-        String hostname = scanner.nextLine();
-
-        try {
-            InetAddress[] addresses = InetAddress.getAllByName(hostname);
-
-            System.out.println("IP addresses for " + hostname + ":");
-            for (InetAddress address : addresses) {
-                System.out.println(address.getHostAddress());
+            System.out.println("Students - Above 75% ");
+            System.out.println("Roll No  \tPercentage");
+            while(rs.next())
+            {
+                System.out.println(rs.getInt(1)+"\t\t"+rs.getInt(3));
             }
-        } catch (UnknownHostException e) {
-            System.err.println("Unable to resolve hostname: " + hostname);
-        }
 
-        scanner.close();
+            con.close();
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+        }
     }
 }
