@@ -1,0 +1,7 @@
+Run("notepad.exe")
+WinWaitActive("EXP17Victim.txt ‎- Notepads")
+Send("lets save this file")
+Send("^s")
+WinWaitActive("Save as")
+Send("Saving")
+Send("{ENTER}")
