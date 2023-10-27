@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="ogNum"></h1>
+    <h1 id="newNum"></h1>
+    <script>
+      const x = prompt("Enter your number");
+      if (x.length !== 10) {
+        alert("invalid phone numebr");
+      } else {
+        const ogNum = document.getElementById("ogNum");
+        ogNum.innerHTML = "Original Number : " + x;
+        const avg = x.length / 2;
+        const newNum = document.getElementById("newNum");
+        let a = x.substring(0, x.length - avg);
+        newNum.innerHTML = "Hidden Number : " + a + ".....";
+      }
+    </script>
+  </body>
+</html>

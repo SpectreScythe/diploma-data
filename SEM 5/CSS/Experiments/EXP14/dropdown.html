@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            font-family: -apple-system, sans-serif;
+        }
+        #myMenu {
+            display: none;
+            width: 10rem;
+        }
+        #myMenu ul li {
+            font-size: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+<div id="menuTrigger" onclick="toggleDropDown()">
+    <h1>Menu</h1>
+</div>
+<div id="myMenu">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Settings</li>
+    </ul>
+</div>
+<script>
+    let myMenu = document.getElementById("myMenu");
+    let toggling = false;
+    function toggleDropDown() {
+        toggling = !toggling
+        if (toggling){
+            myMenu.style.display = "block"
+        } else {
+            myMenu.style.display = "none"
+        }
+    }
+</script>
+</body>
+</html>

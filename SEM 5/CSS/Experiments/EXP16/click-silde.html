@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Clickable Slideshow</title>
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 500px;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            object-fit: cover;
+            height: 20rem;
+        }
+        .btn-div{
+            margin-top: 2rem;
+            margin-left: 38%;
+        }
+        button{
+            border-radius: 10px;
+            font-size: 2rem;
+            height: 4rem;
+            width: 10rem;
+        }
+    </style>
+</head>
+<body>
+<div class="slideshow-container">
+    <div class="mySlides">
+        <img src="./img/pic1.jpeg" alt="Image 1">
+    </div>
+    <div class="mySlides">
+        <img src="./img/pic2.jpeg" alt="Image 2">
+    </div>
+    <div class="mySlides">
+        <img src="./img/pic3.jpeg" alt="Image 3">
+    </div>
+</div>
+
+<div class="btn-div">
+    <button onclick="plusSlides(-1)">Previous</button>
+    <button onclick="plusSlides(1)">Next</button>
+</div>
+
+<script>
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+
+    function showSlides(n) {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+        if (n > slides.length) {
+            slideIndex = 1;
+        }
+        if (n < 1) {
+            slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+</body>
+</html>

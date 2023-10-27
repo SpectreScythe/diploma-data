@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            margin-top: 2rem;
+            font-family: -apple-system, sans-serif;
+        }
+        #myMenu {
+            display: none;
+            width: 30rem;
+        }
+        #myMenu ul li {
+            font-size: 1.5rem;
+            background-color: #1a1a1a;
+            color: #cccccc;
+            padding: 0.5rem;
+            margin-left: 10rem;
+        }
+        span{
+            color: #cccccc;
+            padding: 0.5rem;
+            background-color: #1a1a1a;
+            width: 5rem;
+            height: 3rem;
+            font-size: 2rem;
+        }
+    </style>
+</head>
+<body>
+<div>
+    <span>Title</span>
+    <span>Login</span>
+    <span>Menu</span>
+    <input type="text" id="menuTrigger">
+</div>
+<div id="myMenu">
+    <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Contact</li>
+        <li>Settings</li>
+    </ul>
+</div>
+<script>
+    let myMenu = document.getElementById("myMenu");
+    let menuTrigger = document.getElementById("menuTrigger");
+
+    menuTrigger.addEventListener("focusin", function () {
+        myMenu.style.display = "block";
+    });
+
+    menuTrigger.addEventListener("focusout", function () {
+        myMenu.style.display = "none";
+    });
+</script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hover-Based Slideshow</title>
+    <style>
+        .slideshow-container {
+            position: relative;
+            max-width: 500px;
+            margin: auto;
+        }
+        .mySlides {
+            display: none;
+        }
+        img {
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="slideshow-container" onmouseover="stopSlides()" onmouseleave="startSlides()">
+    <div class="mySlides">
+        <img src="./img/pic3.jpeg" alt="Image 1">
+    </div>
+    <div class="mySlides">
+        <img src="./img/pic2.jpeg" alt="Image 2">
+    </div>
+    <div class="mySlides">
+        <img src="./img/pic1.jpeg" alt="Image 3">
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    let slideInterval;
+
+    startSlides();
+
+    function startSlides() {
+        slideInterval = setInterval(showSlides, 2000);
+    }
+
+    function stopSlides() {
+        clearInterval(slideInterval);
+    }
+
+    function showSlides() {
+        let i;
+        const slides = document.getElementsByClassName("mySlides");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Enter Name:</p>
+    <input type="text" name="" id="nameU">
+    <p>Enter Password:</p>
+    <input type="text" name="" id="passU"><br><br>
+    <button onclick="submitData()">Submit</button>
+    <h1>Welcome to Home Page <br>You have entered..... <br>userName: Farhanaaz <br>Password: ajpPrac</h1>
+    <script>
+        function submitData(){
+            console.log("Name : " + document.getElementById("nameU").value)
+            console.log("Password : " + document.getElementById("passU").value)
+        }
+    </script>
+</body>
+</html>

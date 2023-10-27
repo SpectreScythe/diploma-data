@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 id="og-mail"></h1>
+    <h1 id="new-mail"></h1>
+    <script>
+        let myEmail = "trevorphilips@gmail.com"
+        let ogMail = document.getElementById("og-mail")
+        let newMail = document.getElementById("new-mail")
+
+        ogMail.innerHTML = "Original Email : " + myEmail
+
+        let splittedMail = myEmail.split("@")
+
+        let mailP1 = splittedMail[0]
+        let mailP2 = splittedMail[1]
+
+        let mailAvg = mailP1.length/2
+
+        mailP1 = mailP1.substring(0,mailP1.length-mailAvg)
+
+        newMail.innerHTML = "Hidden Mail : " + mailP1 + "....@" + mailP2
+    </script>
+</body>
+</html>

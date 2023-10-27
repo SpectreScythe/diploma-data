@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1 id="msg">qarq90</h1>
+<script>
+    const myText = document.getElementById("msg");
+    let mySpace = 0;
+
+    function moveText(){
+        mySpace += 1;
+        myText.style.marginLeft = mySpace + "px";
+        if (mySpace > 500){
+            mySpace = 0;
+        }
+        setTimeout(moveText,5)
+    }
+    moveText();
+</script>
+</body>
+</html>
