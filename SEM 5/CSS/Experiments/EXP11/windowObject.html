@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Window Object Example</title>
+</head>
+<body>
+  <h1>Window Object Example</h1>
+
+  <button onclick="openNewWindow()">Open a New Window</button>
+  <button onclick="closeWindow()">Close Window</button>
+  <button onclick="printPage()">Print Page</button>
+  <button onclick="showAlert()">Show Alert</button>
+  <button onclick="showConfirm()">Show Confirmation Dialog</button>
+  <button onclick="showPrompt()">Show Prompt Dialog</button>
+  <button onclick="navigateToURL()">Navigate to a URL</button>
+  
+  <script>
+    let newWindow;
+
+    function openNewWindow() {
+      newWindow = window.open("https://www.example.com", "_blank", "width=400,height=400");
+    }
+
+    function closeWindow() {
+      if (newWindow) {
+        newWindow.close();
+      }
+    }
+
+    function printPage() {
+      window.print();
+    }
+
+    function showAlert() {
+      window.alert("This is an alert message.");
+    }
+
+    function showConfirm() {
+      const result = window.confirm("Do you want to proceed?");
+      if (result) {
+        alert("You clicked OK.");
+      } else {
+        alert("You clicked Cancel.");
+      }
+    }
+
+    function showPrompt() {
+      const name = window.prompt("Please enter your name:", "qarq90 Doe");
+      if (name) {
+        alert("Hello, " + name + "!");
+      } else {
+        alert("You didn't enter your name.");
+      }
+    }
+
+    function navigateToURL() {
+      window.location.href = "https://www.example.com";
+    }
+  </script>
+</body>
+</html>

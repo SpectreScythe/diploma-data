@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Session Cookie Example</title>
+</head>
+<body>
+  <h1>Session Cookie Example</h1>
+
+  <button onclick="setSessionCookie()">Set Session Cookie</button>
+
+  <script>
+    function setSessionCookie() {
+      const cookieName = "mySessionCookie";
+      const cookieValue = "This is a session cookie value";
+
+      document.cookie = `${cookieName}=${cookieValue}; path=/`;
+
+      alert("Session cookie has been set. It will KILLED WHEN U KILL THE BROWSER jk.");
+    }
+  </script>
+</body>
+</html>

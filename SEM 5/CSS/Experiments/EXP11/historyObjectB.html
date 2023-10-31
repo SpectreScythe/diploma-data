@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Location Object Example</title>
+</head>
+<body>
+  <h1>Location Object Example</h1>
+
+  <p>Current URL: <span id="currentUrl"></span></p>
+  <button onclick="showCurrentURL()">Show Current URL</button>
+  <button onclick="reloadPage()">Reload Page</button>
+  <button onclick="navigateToGoogle()">Navigate to Google</button>
+  <button onclick="changeHash()">Change Hash</button>
+
+  <script>
+    function showCurrentURL() {
+      const currentUrl = window.location.href;
+      document.getElementById("currentUrl").textContent = currentUrl;
+    }
+
+    function reloadPage() {
+      window.location.reload();
+    }
+
+    function navigateToGoogle() {
+      window.location.href = "https://www.google.com";
+    }
+
+    function changeHash() {
+      window.location.hash = "exampleHash";
+    }
+  </script>
+</body>
+</html>

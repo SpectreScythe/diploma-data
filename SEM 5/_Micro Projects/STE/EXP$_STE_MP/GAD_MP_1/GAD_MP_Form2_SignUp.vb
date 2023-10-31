@@ -103,6 +103,10 @@ Public Class GAD_MP_Form2_SignUp
 
             GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number field cannot be empty")
 
+        ElseIf GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length > 10 Or GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length < 10 Then
+
+            GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number cannot be more than 10 digits")
+
         Else
 
             connection.Open()
@@ -184,7 +188,7 @@ Public Class GAD_MP_Form2_SignUp
         Dim emailPattern As String = ("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$")
         Dim regex As New Regex(emailPattern)
         If regex.IsMatch(input) Then
-            GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_EmailTextBox, "Valid Email Format")
+
         Else
             GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_EmailTextBox, "Invalid Email Format")
         End If
@@ -199,7 +203,6 @@ Public Class GAD_MP_Form2_SignUp
 
         Else
 
-            GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "")
 
         End If
 

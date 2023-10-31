@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        img{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+<img id="myImg" src="../img/pic1.jpeg" alt="">
+<script>
+    const myImg = document.getElementById("myImg")
+    myImg.addEventListener('mouseover',function(){
+        myImg.style.width = "800px";
+        myImg.style.height = "600px";
+        myImg.style.transition = "0.5s ease all"
+        myImg.style.cursor = "pointer"
+    })
+    myImg.addEventListener('mouseleave',function(){
+        myImg.style.width = "500px";
+        myImg.style.height = "350px";
+    })
+</script>
+</body>
+</html>

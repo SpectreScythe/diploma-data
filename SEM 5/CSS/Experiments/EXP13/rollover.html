@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 40rem;
+            height: 30rem;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <img id="myImg" src="../Practical%20Playgorund/img/pic1.jpeg" alt="">
+    <p onclick="changeRollOver(0)">Change to pic A</p>
+    <p onclick="changeRollOver(1)">Change to pic B</p>
+    <p onclick="changeRollOver(2)">Change to pic C</p>
+
+    <script>
+        let rollOverArray= ["../img/pic1.jpeg","../img/pic2.jpeg","../img/pic3.jpeg",]
+        function changeRollOver(index){
+            const myImg = document.getElementById("myImg")
+            myImg.src = rollOverArray[index]
+        }
+    </script>
+</body>
+</html>

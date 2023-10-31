@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        img{
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Enlarges on "onmouseover" and goes <br> back to normal size "onmouseout" Event</h1>
+    <br><br>
+    <img id="myImg" src="../img/pic2.jpeg" alt="">
+    <script>
+        const myImg = document.getElementById("myImg")
+        myImg.addEventListener('mouseover',function(){
+            myImg.style.width = "500px";
+            myImg.style.height = "300px";
+            myImg.style.transition = "0.5s ease all"
+        })
+        myImg.addEventListener('mouseleave',function(){
+            myImg.style.width = "200px";
+            myImg.style.height = "100px";
+        })
+    </script>
+</body>
+</html>
