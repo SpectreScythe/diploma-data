@@ -103,10 +103,6 @@ Public Class GAD_MP_Form2_SignUp
 
             GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number field cannot be empty")
 
-        ElseIf GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length > 10 Or GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length < 10 Then
-
-            GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number cannot be more than 10 digits")
-
         Else
 
             connection.Open()
@@ -201,8 +197,9 @@ Public Class GAD_MP_Form2_SignUp
 
             GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number cannot have alphabetical values")
 
-        Else
+        ElseIf GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length > 10 Or GAD_MP_Form2_SignUp_PhoneNumTextBox.Text.Length < 10 Then
 
+            GAD_MP_Form2_SignUp_EP.SetError(GAD_MP_Form2_SignUp_PhoneNumTextBox, "Phone Number cannot be more than 10 digits")
 
         End If
 
