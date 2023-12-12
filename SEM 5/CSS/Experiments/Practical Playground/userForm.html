@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>Enter Name:</p>
+    <input type="text" name="" id="nameInput" />
+    <p>Enter Password:</p>
+    <input type="text" name="" id="passInput" />
+    <br />
+    <br />
+    <input type="button" value="Submit" onclick="createCookie()" />
+    <script>
+      function createCookie() {
+        let username = document.getElementById("nameInput").value;
+        let userpass = document.getElementById("passInput").value;
+        let myDate = new Date();
+        myDate.setDate(myDate.getDate() + 30);
+        document.cookie = "User Name=" + username + ";expires=" + myDate + ";";
+        document.cookie =
+          "User Password=" + userpass + ";expires=" + myDate + ";";
+      }
+    </script>
+  </body>
+</html>

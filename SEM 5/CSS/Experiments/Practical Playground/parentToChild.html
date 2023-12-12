@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Access Child Window Elements</title>
+  </head>
+  <body>
+    <h1>Access Child Window Elements</h1>
+
+    <button onclick="openChildWindow()">Open Child Window</button>
+
+    <script>
+      let childWindow;
+
+      function openChildWindow() {
+        childWindow = window.open(
+          "child.html",
+          "ChildWindow",
+          "width=500,height=300"
+        );
+
+        if (
+          !childWindow ||
+          childWindow.closed ||
+          typeof childWindow.closed === "undefined"
+        ) {
+          alert(
+            "The child window was blocked by a popup blocker or is not supported by your browser."
+          );
+        }
+        childWindow.focus();
+        accessChildWindow();
+      }
+
+      function accessChildWindow() {
+        if (childWindow) {
+          const childWindowElement =
+            childWindow.document.getElementById("child-element");
+
+          if (childWindowElement) {
+            childWindowElement.textContent = "Hello from the parent window!";
+          } else {
+            alert("Element not found in the child window.");
+          }
+        } else {
+          alert("Child window is not open.");
+        }
+      }
+    </script>
+  </body>
+</html>

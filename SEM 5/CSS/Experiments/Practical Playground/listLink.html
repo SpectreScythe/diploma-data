@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="" id="linkCompany" onchange="goToLink()">
+      <option value="google">Google</option>
+      <option value="youtube">Youtube</option>
+      <option value="github">Github</option>
+    </select>
+    <script>
+      function goToLink() {
+        let linkCompany = document.getElementById("linkCompany").value;
+        if (linkCompany == "google") {
+          window.location.replace("https://google.com");
+        } else if (linkCompany == "youtube") {
+          window.location.replace("https://youtube.com");
+        } else if (linkCompany == "github") {
+          window.location.replace("https://github.com");
+        }
+      }
+    </script>
+  </body>
+</html>

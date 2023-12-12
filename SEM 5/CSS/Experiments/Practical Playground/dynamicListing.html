@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dynamic Listing</h1>
+    <select name="listType" id="listType" onchange="changeList()">
+      <option value="Fruits">Fruits</option>
+      <option value="Vegetables">Vegetables</option>
+    </select>
+
+    <select name="contentList" id="contentList"></select>
+    <script>
+      let arrayFruit = ["Mango", "Grape", "Apple"];
+      let arrayVeg = ["Tomato", "Potato", "Brinjal"];
+      let listType = document.getElementById("listType");
+      let contentList = document.getElementById("contentList");
+
+      changeList();
+
+      function changeList() {
+        let selectedType = listType.value;
+        contentList.innerHTML = "";
+
+        if (selectedType === "Fruits") {
+          for (let i = 0; i < 3; i++) {
+            let listItem = document.createElement("option");
+            listItem.innerHTML = arrayFruit[i];
+            contentList.appendChild(listItem);
+          }
+        } else if (selectedType === "Vegetables") {
+          for (let i = 0; i < 3; i++) {
+            let listItem = document.createElement("option");
+            listItem.innerHTML = arrayVeg[i];
+            contentList.appendChild(listItem);
+          }
+        }
+      }
+    </script>
+  </body>
+</html>

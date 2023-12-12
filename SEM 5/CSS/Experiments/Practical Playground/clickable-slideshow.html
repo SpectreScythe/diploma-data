@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <img id="banner-img" src="../img/pic1.jpeg" alt="" />
+    <button onclick="nextPic()">Next</button>
+    <button onclick="prevPic()">Previous</button>
+    <script>
+      let bannerImgs = [
+        "../img/pic1.jpeg",
+        "../img/pic2.jpeg",
+        "../img/pic3.jpeg",
+      ];
+
+      let bannerImg = document.getElementById("banner-img");
+      let i = 0;
+
+      function nextPic() {
+        i++;
+        if (i >= bannerImgs.length) i = 0;
+        else if (i < 0) i = bannerImgs.length - 1;
+
+        bannerImg.src = bannerImgs[i];
+      }
+
+      function prevPic() {
+        i--;
+        if (i >= bannerImgs.length) i = 0;
+        else if (i < 0) i = bannerImgs.length - 1;
+
+        bannerImg.src = bannerImgs[i];
+      }
+    </script>
+  </body>
+</html>

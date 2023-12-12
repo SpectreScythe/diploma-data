@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        display: none;
+      }
+      img {
+        width: 50%;
+        height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <img onmouseover="showText()" onmouseout="showText()" id="myImg" src="../img/pic1.jpeg" alt="" />
+    <h1 id="myh1">Playing Games</h1>
+    <script>
+      let myh1 = document.getElementById("myh1");
+      let myImg = document.getElementById("myImg");
+      let tBool = false;
+      function showText() {
+        tBool = !tBool;
+        if (tBool) {
+          myh1.style.display = "block";
+        } else {
+          myh1.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

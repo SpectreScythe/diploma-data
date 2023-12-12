@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Create an Array</title>
+  </head>
+  <body>
+    <form>
+      <input
+        type="text"
+        name=""
+        id="myName"
+        value=""
+        placeholder="Enter name:"
+      />
+      <input
+        type="text"
+        name=""
+        id="myPass"
+        value=""
+        placeholder="Enter Password:"
+      />
+      <input type="reset" value="Reset" />
+      <input type="submit" value="Submit" onclick="formHandler()" />
+      <br />
+      <br />
+      <br />
+      <select id="fruits" onchange="selectHandler()">
+        <option>Apple</option>
+        <option>Mango</option>
+        <option>Pineapple</option>
+        <option>Grape</option>
+      </select>
+      <input type="text" name="" id="fruitSelected" />
+    </form>
+    <script>
+      const formHandler = () => {
+        let n = document.getElementById("myName").value;
+        let p = document.getElementById("myPass").value;
+
+        if (n == "" || p == "") {
+          alert("Please enter your details...");
+        } else if (n == "") {
+          alert("Please enter your name...");
+        } else if (p == "") {
+          alert("Please enter your password...");
+        } else {
+          alert("Form submitted");
+        }
+      };
+
+      const selectHandler = () => {
+        const selectElement = document.getElementById("fruits");
+        const selectedIndex = selectElement.selectedIndex;
+        const selectedOption = selectElement.options[selectedIndex];
+        const selectedText = selectedOption.text;
+
+        document.getElementById("fruitSelected").value = selectedText;
+      };
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Palindrome</title>
+  </head>
+  <body>
+    <script>
+      let n = prompt("Enter a string:");
+      let len = n.length;
+      let strBool;
+
+      for (let i = 0; i < Math.floor(len / 2); i++) {
+        strBool = n[i] === n[len - i - 1];
+      }
+
+      if (strBool) {
+        document.write("its a p");
+      } else {
+        document.write("its not a p");
+      }
+    </script>
+  </body>
+</html>

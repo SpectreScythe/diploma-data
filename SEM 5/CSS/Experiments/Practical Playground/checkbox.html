@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="checkbox" name="" id="CB" onchange="CBC()" />Check Me
+    <script>
+      let CB = document.getElementById("CB");
+      function CBC() {
+        if (CB.checked) {
+          document.write("im checked");
+        } else {
+          document.write("not checked");
+        }
+      }
+    </script>
+  </body>
+</html>

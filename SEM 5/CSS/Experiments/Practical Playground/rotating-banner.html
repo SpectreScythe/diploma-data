@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      img {
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <a id="banner-link" href="https://google.com">
+      <img id="banner-img" src="../img/pic1.jpeg" alt="" />
+    </a>
+    <script>
+      let bannerImgs = [
+        "../img/pic1.jpeg",
+        "../img/pic2.jpeg",
+        "../img/pic3.jpeg",
+      ];
+      let bannerLinks = [
+        "https://google.com",
+        "https://github.com",
+        "https://youtube.com",
+      ];
+
+      let bannerImg = document.getElementById("banner-img");
+      let bannerLink = document.getElementById("banner-link");
+
+      let i = 0;
+      let bannerInterval;
+      nextPic();
+
+      function nextPic() {
+        i++;
+        if (i >= bannerImgs.length) i = 0;
+        else if (i < 0) i = bannerImgs.length - 1;
+
+        bannerImg.src = bannerImgs[i];
+        bannerLink.href = bannerLinks[i];
+      }
+      bannerInterval = setInterval(nextPic, 500);
+    </script>
+  </body>
+</html>
